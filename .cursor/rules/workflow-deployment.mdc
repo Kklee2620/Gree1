@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Quy Trình Làm Việc & Triển Khai
+
+## Development Workflow
+1. Feature branches từ main
+2. Conventional commits
+3. Pull requests với code review
+4. CI/CD checks phải pass
+5. Squash merge vào main
+
+## Environment Setup
+- Node.js 18+
+- PostgreSQL 14+
+- Redis cho caching
+- Environment variables theo [.env.local](mdc:.env.local)
+
+## Build Process
+1. Type checking
+2. Linting
+3. Tests
+4. Build production bundle
+5. Generate static assets
+
+## Deployment
+- Production: Vercel
+- Staging: Preview deployments
+- Database: Managed PostgreSQL
+- Monitoring: Vercel Analytics
+
+## Performance Requirements
+- Lighthouse score > 90
+- First contentful paint < 1.5s
+- Time to interactive < 3.5s
+- Bundle size < 200KB (gzipped)
+
+## Monitoring
+- Error tracking
+- Performance monitoring
+- User analytics
+- Server metrics
+
+## Backup & Recovery
+- Daily database backups
+- Point-in-time recovery
+- Disaster recovery plan
+- Backup testing schedule
+
+## Security Measures
+- Regular security audits
+- Dependency updates
+- Penetration testing
+- Security headers
+

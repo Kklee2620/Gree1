@@ -1,0 +1,80 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Quy tắc Vàng trong Lập trình và Phát triển Web
+
+Đây là tổng hợp các nguyên tắc, quy tắc và lời khuyên cốt lõi dành cho các nhà phát triển web ở mọi cấp độ. Mục tiêu là xây dựng các ứng dụng web chất lượng cao, dễ bảo trì, bảo mật và hiệu quả.
+
+## I. Nguyên tắc Thiết kế & Tư duy
+
+1.  **KISS (Keep It Simple, Stupid):** Giữ cho mọi thứ (code, kiến trúc, UI/UX) đơn giản nhất có thể. Sự phức tạp là kẻ thù của bảo trì và mở rộng.
+2.  **DRY (Don't Repeat Yourself):** Tránh lặp lại code. Sử dụng hàm, class, component, hoặc các cấu trúc trừu tượng khác để tái sử dụng logic.
+3.  **YAGNI (You Ain't Gonna Need It):** Đừng thêm các chức năng không thực sự cần thiết vào thời điểm hiện tại, ngay cả khi bạn nghĩ "có thể sau này cần". Tập trung vào yêu cầu trước mắt.
+4.  **Hiểu Rõ Yêu Cầu:** Đảm bảo bạn hiểu rõ mục tiêu kinh doanh, đối tượng người dùng và các yêu cầu chức năng/phi chức năng *trước khi* bắt đầu code.
+5.  **Thiết Kế Hướng Người Dùng (User-Centric Design):** Luôn đặt trải nghiệm người dùng (UX) làm trung tâm. Giao diện (UI) phải trực quan, dễ sử dụng và đáp ứng nhu cầu của họ.
+6.  **Tách Biệt Các Mối Quan Tâm (Separation of Concerns - SoC):** Chia nhỏ hệ thống thành các module/component độc lập, mỗi phần chịu trách nhiệm một việc cụ thể (ví dụ: Model-View-Controller, UI vs Logic vs Data Access).
+
+## II. Chất lượng Code & Bảo trì
+
+7.  **Code Dễ Đọc Là Trên Hết:** Viết code cho người đọc (bao gồm chính bạn trong tương lai), không chỉ cho máy chạy. Sử dụng tên biến, hàm, class có ý nghĩa rõ ràng.
+8.  **Tuân Thủ Style Guide:** Sử dụng một bộ quy tắc định dạng code (style guide) nhất quán trong toàn bộ dự án (ví dụ: PEP 8 cho Python, Prettier cho JS/TS). Sử dụng linters và formatters tự động.
+9.  **Comment "Tại Sao", Không Phải "Cái Gì":** Code nên tự giải thích "cái gì" nó đang làm. Comment nên giải thích "tại sao" lại chọn cách làm đó, hoặc làm rõ những logic phức tạp. Tránh comment thừa thãi.
+10. **Refactor Thường Xuyên:** Đừng ngại cấu trúc lại code để cải thiện sự rõ ràng, hiệu quả và loại bỏ "code smell" khi bạn thấy cần thiết. Tích hợp refactoring vào quy trình làm việc.
+11. **Viết Code Module Hóa:** Tạo ra các hàm, class, component nhỏ, có mục đích rõ ràng và có thể tái sử dụng.
+12. **Quản Lý Dependencies Cẩn Thận:** Hiểu rõ các thư viện/framework bạn sử dụng. Cập nhật chúng một cách có kiểm soát và loại bỏ những thứ không dùng đến.
+
+## III. Frontend Development
+
+13. **Ưu Tiên Performance:** Tối ưu tốc độ tải trang và tương tác. Sử dụng các kỹ thuật như code splitting, lazy loading, tối ưu ảnh, caching, giảm thiểu request.
+14. **Thiết Kế Responsive:** Đảm bảo trang web hiển thị và hoạt động tốt trên mọi kích thước màn hình (desktop, tablet, mobile). Mobile-first là một cách tiếp cận tốt.
+15. **Đảm Bảo Tính Tiếp Cận (Accessibility - a11y):** Thiết kế và code để mọi người, kể cả người khuyết tật, có thể sử dụng ứng dụng của bạn (sử dụng HTML ngữ nghĩa, ARIA attributes, kiểm tra độ tương phản màu...).
+16. **Tương Thích Trình Duyệt Chéo (Cross-Browser Compatibility):** Kiểm tra và đảm bảo ứng dụng hoạt động nhất quán trên các trình duyệt phổ biến.
+17. **Quản Lý Trạng Thái (State Management) Hiệu Quả:** Chọn và sử dụng các giải pháp quản lý trạng thái phù hợp với độ phức tạp của ứng dụng (đối với các framework như React, Vue, Angular).
+
+## IV. Backend Development
+
+18. **Thiết Kế API Rõ Ràng & Nhất Quán:** Nếu xây dựng API (REST, GraphQL), hãy tuân theo các chuẩn mực, đặt tên endpoint/query/mutation có ý nghĩa, và cung cấp tài liệu rõ ràng (ví dụ: Swagger/OpenAPI).
+19. **Validation Nghiêm Ngặt:** **Không bao giờ tin tưởng dữ liệu đầu vào** từ client hoặc bất kỳ nguồn bên ngoài nào. Validate dữ liệu ở cả frontend (để cải thiện UX) và backend (bắt buộc để đảm bảo an toàn và toàn vẹn dữ liệu).
+20. **Xử Lý Lỗi (Error Handling) Minh Bạch:** Bắt lỗi một cách tường minh, ghi log lỗi đầy đủ thông tin (nhưng không nhạy cảm), và trả về thông báo lỗi có ý nghĩa cho client (tránh lộ chi tiết nội bộ).
+21. **Logging Hiệu Quả:** Ghi lại các sự kiện quan trọng, lỗi, và thông tin debug cần thiết để theo dõi và gỡ lỗi hệ thống. Sử dụng các cấp độ log (info, warn, error...).
+
+## V. Cơ sở dữ liệu (Database)
+
+22. **Lựa Chọn CSDL Phù Hợp:** Hiểu rõ sự khác biệt giữa SQL và NoSQL, và chọn loại CSDL phù hợp nhất với cấu trúc dữ liệu và yêu cầu truy vấn của ứng dụng.
+23. **Thiết Kế Lược Đồ (Schema Design) Cẩn Thận:** Chuẩn hóa dữ liệu (Normalization) để tránh trùng lặp (cho SQL), hoặc thiết kế cấu trúc tối ưu cho truy vấn (cho NoSQL). Cân nhắc giữa chuẩn hóa và phi chuẩn hóa (Denormalization) vì mục đích performance.
+24. **Tối Ưu Truy Vấn (Query Optimization):** Viết các câu truy vấn hiệu quả. Sử dụng `index` một cách thông minh cho các cột thường xuyên được dùng trong `WHERE`, `JOIN`, `ORDER BY`. Phân tích các truy vấn chậm (slow queries).
+25. **Bảo Mật CSDL:** Ngăn chặn SQL Injection bằng cách sử dụng prepared statements/parameterized queries. Không lưu mật khẩu dạng plain text (sử dụng hashing mạnh với salt). Phân quyền truy cập CSDL chặt chẽ.
+
+## VI. Bảo mật (Security)
+
+26. **HTTPS Everywhere:** Luôn sử dụng HTTPS để mã hóa dữ liệu truyền tải giữa client và server.
+27. **Nguyên Tắc Đặc Quyền Tối Thiểu (Least Privilege):** Mỗi thành phần hoặc người dùng chỉ nên có quyền truy cập tối thiểu cần thiết để thực hiện nhiệm vụ của mình.
+28. **Cập Nhật Dependencies Thường Xuyên:** Các lỗ hổng bảo mật thường được tìm thấy trong các thư viện bên thứ ba. Luôn cập nhật phiên bản mới nhất (đã được kiểm thử). Sử dụng công cụ quét lỗ hổng dependency.
+29. **Bảo Vệ Chống Lại Các Lỗ Hổng Phổ Biến (OWASP Top 10):** Hiểu và áp dụng các biện pháp phòng chống các tấn công phổ biến như Injection (SQL, NoSQL, OS, XSS), Broken Authentication, Sensitive Data Exposure, XML External Entities (XXE), Broken Access Control, Security Misconfiguration, Cross-Site Scripting (XSS), Insecure Deserialization, Using Components with Known Vulnerabilities, Insufficient Logging & Monitoring.
+30. **Quản Lý Bí Mật (Secrets Management) An Toàn:** Không bao giờ hardcode API keys, mật khẩu, hoặc thông tin nhạy cảm khác trực tiếp trong code. Sử dụng biến môi trường, các dịch vụ quản lý secrets (như HashiCorp Vault, AWS Secrets Manager).
+
+## VII. Kiểm thử (Testing)
+
+31. **Viết Tests:** Code không có test là code lỗi tiềm ẩn. Viết unit tests, integration tests, và end-to-end (E2E) tests để đảm bảo code hoạt động đúng như mong đợi và phát hiện lỗi sớm.
+32. **Tự Động Hóa Kiểm Thử:** Tích hợp việc chạy test vào quy trình phát triển (ví dụ: trong CI pipeline). Test tự động giúp phát hiện hồi quy (regression) nhanh chóng.
+33. **Kiểm Thử Các Trường Hợp Biên (Edge Cases):** Đừng chỉ test các luồng hoạt động thông thường (happy paths). Hãy nghĩ đến các trường hợp ngoại lệ, dữ liệu đầu vào không hợp lệ, lỗi mạng...
+
+## VIII. Triển khai & Vận hành (Deployment & DevOps)
+
+34. **Tự Động Hóa Triển Khai (CI/CD):** Thiết lập quy trình Tích hợp Liên tục (CI) và Triển khai Liên tục (CD) để tự động hóa việc build, test và deploy ứng dụng. Giúp giảm lỗi do con người và tăng tốc độ phát hành.
+35. **Infrastructure as Code (IaC):** Quản lý hạ tầng (servers, databases, networks) bằng code (ví dụ: Terraform, CloudFormation). Giúp tạo môi trường nhất quán, dễ dàng tái tạo và quản lý thay đổi.
+36. **Giám Sát (Monitoring) & Cảnh Báo (Alerting):** Theo dõi tình trạng hệ thống (CPU, memory, disk, network), hiệu năng ứng dụng (request time, error rate), và thiết lập cảnh báo khi có sự cố hoặc chỉ số bất thường.
+37. **Quản Lý Log Tập Trung:** Thu thập log từ tất cả các thành phần của hệ thống về một nơi để dễ dàng tìm kiếm, phân tích và gỡ lỗi.
+38. **Sao Lưu & Phục Hồi (Backup & Recovery):** Lên kế hoạch và thực hiện sao lưu dữ liệu định kỳ. Thường xuyên kiểm tra quy trình phục hồi để đảm bảo nó hoạt động khi cần.
+
+## IX. Hợp tác & Học hỏi
+
+39. **Sử Dụng Hệ Thống Quản Lý Phiên Bản (Version Control) Hiệu Quả:** Sử dụng Git thành thạo. Viết commit message rõ ràng, có ý nghĩa. Sử dụng các quy trình làm việc như Gitflow hoặc GitHub Flow một cách nhất quán.
+40. **Thực Hiện Code Review:** Code review giúp chia sẻ kiến thức, cải thiện chất lượng code, và phát hiện lỗi sớm. Hãy review code của người khác và đón nhận phản hồi về code của mình một cách xây dựng.
+41. **Viết Tài Liệu (Documentation):** Viết tài liệu cho API, kiến trúc hệ thống, quy trình cài đặt, hoặc các phần code phức tạp. Tài liệu tốt giúp người khác (và chính bạn) hiểu và làm việc với dự án dễ dàng hơn.
+42. **Không Ngừng Học Hỏi:** Công nghệ web thay đổi liên tục. Luôn cập nhật kiến thức về ngôn ngữ, framework, công cụ và các phương pháp hay nhất mới.
+
+
+

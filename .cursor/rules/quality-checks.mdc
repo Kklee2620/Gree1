@@ -1,0 +1,52 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Code Quality Requirements
+
+## Phase 1: Database & Entities
+All entities must follow these rules:
+
+### Entity Structure
+- Must be in [src/database/entities/](mdc:src/database/entities)
+- Must have proper TypeORM decorators
+- Must include proper indexes for frequently queried fields
+- Must implement soft delete where appropriate
+- Must have proper cascade rules defined
+
+### Required Fields
+- `id`: UUID primary key
+- `createdAt`: Creation timestamp
+- `updatedAt`: Update timestamp
+- `deletedAt`: For soft delete (if applicable)
+- `metadata`: JSON field for extensibility
+
+### Relationships
+- Must define proper foreign key constraints
+- Must specify onDelete behavior
+- Must include appropriate cascade options
+- Must be properly indexed
+
+### Examples
+Good entity structure:
+```typescript
+@Entity()
+@Index(['name'])
+export class Category {
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
+
+  @Column()
+  @Index()
+  name: string;
+
+  @CreateDateColumn()
+  createdAt: Date;
+}
+```
+
+### Current Focus
+- Adding missing indexes to [Category.entity.ts](mdc:src/database/entities/Category.entity.ts)
+- Setting up cascade rules in [Cart.entity.ts](mdc:src/database/entities/Cart.entity.ts)
+- Implementing soft delete in all entities

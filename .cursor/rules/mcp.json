@@ -1,0 +1,103 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/github",
+        "--config",
+        "\"{\\\"githubPersonalAccessToken\\\":\\\"jina_db8d2af75fda45b4bb50bf5c0733dbf3WBKvcvqttJn-wq_L83C5Oj5jKYgy\\\"}\""
+      ],
+      "alwaysAllow": [
+        "search_repositories",
+        "create_repository",
+        "get_file_contents",
+        "push_files",
+        "create_issue",
+        "create_pull_request",
+        "fork_repository",
+        "create_branch",
+        "list_commits",
+        "list_issues",
+        "update_issue",
+        "add_issue_comment",
+        "search_code",
+        "search_issues",
+        "search_users",
+        "get_issue"
+      ],
+      "timeout": 30
+    },
+    "mcp-server-firecrawl": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@mendableai/mcp-server-firecrawl",
+        "--config",
+        "\"{\\\"fireCrawlApiKey\\\":\\\"fc-13ddb33432574384942d44559dd50f5f\\\"}\""
+      ],
+      "alwaysAllow": [
+        "firecrawl_scrape",
+        "firecrawl_map",
+        "firecrawl_crawl",
+        "firecrawl_batch_scrape",
+        "firecrawl_check_batch_status",
+        "firecrawl_check_crawl_status",
+        "firecrawl_search",
+        "firecrawl_extract",
+        "firecrawl_deep_research",
+        "firecrawl_generate_llmstxt"
+      ]
+    },
+    "filesystem-mcp-server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@cyanheads/filesystem-mcp-server",
+        "--key",
+        "e54ca15b-ea3d-427c-b51d-b1d85619fea7"
+      ],
+      "alwaysAllow": [
+        "read_file",
+        "set_filesystem_default",
+        "write_file",
+        "update_file",
+        "list_files",
+        "delete_file",
+        "delete_directory",
+        "create_directory",
+        "move_path",
+        "copy_path"
+      ],
+      "timeout": 30
+    },
+    "fetch": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/fetch",
+        "--key",
+        "e54ca15b-ea3d-427c-b51d-b1d85619fea7"
+      ],
+      "alwaysAllow": [
+        "fetch"
+      ]
+    }
+  }
+}

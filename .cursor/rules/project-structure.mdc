@@ -1,0 +1,37 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cấu Trúc Dự Án
+
+## Thư mục chính
+- [app/](mdc:app) - Chứa các routes và API endpoints của Next.js
+- [components/](mdc:components) - Components UI có thể tái sử dụng
+- [lib/](mdc:lib) - Utilities và helper functions
+- [src/](mdc:src) - Mã nguồn chính của ứng dụng
+- [types/](mdc:types) - TypeScript type definitions
+
+## Cấu hình
+- [next.config.js](mdc:next.config.js) - Cấu hình Next.js
+- [tailwind.config.js](mdc:tailwind.config.js) - Cấu hình Tailwind CSS
+- [ormconfig.json](mdc:ormconfig.json) - Cấu hình TypeORM
+- [tsconfig.json](mdc:tsconfig.json) - Cấu hình TypeScript
+
+## Tính năng chính
+1. Authentication & Authorization
+   - [app/api/auth/](mdc:app/api/auth) - API xác thực
+   - MFA support cho admin accounts
+
+2. Quản lý người dùng
+   - [app/admin/users/](mdc:app/admin/users) - Giao diện quản lý
+   - [app/api/users/](mdc:app/api/users) - API endpoints
+
+3. Quản lý sản phẩm
+   - [app/admin/products/](mdc:app/admin/products) - Giao diện quản lý
+   - [app/api/products/](mdc:app/api/products) - API endpoints
+
+4. Thống kê
+   - [app/admin/dashboard/](mdc:app/admin/dashboard) - Dashboard
+   - [app/api/stats/](mdc:app/api/stats) - API thống kê
+

@@ -1,0 +1,469 @@
+Ok, đây là bản dịch danh sách các từ tiếng Việt trong trang Admin sang tiếng Anh và tiếng Trung (Giản thể), theo định dạng yêu cầu:
+
+**English - Vietnamese - Chinese**
+
+## Điều hướng và Menu - Navigation and Menu - 导航与菜单
+- Dashboard - Bảng điều khiển - 仪表盘
+- Products - Sản phẩm - 商品 / 产品
+- Orders - Đơn hàng - 订单
+- Users - Người dùng - 用户
+- Reports - Báo cáo - 报告
+- Statistics - Thống kê - 统计
+- Settings - Cài đặt - 设置
+- Homepage / Frontend - Trang chủ - 首页 / 前台
+- Inventory - Kho hàng - 库存
+- Marketing - Marketing - 营销
+- Promotions - Khuyến mãi - 促销
+- Support - Hỗ trợ - 支持
+- Messages - Tin nhắn - 消息
+- Logout - Đăng xuất - 登出 / 退出登录
+
+## Tiêu đề và Đầu trang - Title and Header - 标题与页眉
+- Product Management - Quản lý sản phẩm - 商品管理
+- Search - Tìm kiếm - 搜索
+- Administrator - Người quản trị - 管理员
+- Notifications - Thông báo - 通知
+- Language - Ngôn ngữ - 语言
+- Help - Trợ giúp - 帮助
+- Profile - Hồ sơ - 个人资料
+
+## Bảng điều khiển (Dashboard) - Dashboard - 仪表盘
+- Revenue - Doanh thu - 营收 / 销售额
+- Top Selling Products - Sản phẩm bán chạy - 热销商品
+- Orders - Đơn hàng - 订单
+- Products - Sản phẩm - 商品
+- Users - Người dùng - 用户
+- Total Revenue - Tổng doanh thu - 总营收
+- Total Orders - Tổng đơn hàng - 总订单数
+- Total Products - Tổng sản phẩm - 总商品数
+- Revenue Chart - Biểu đồ doanh thu - 营收图表
+- Visits / Traffic - Lượt truy cập - 访问量
+- Recent Orders - Đơn hàng gần đây - 最近订单
+- New Customers - Khách hàng mới - 新客户
+- Conversion Rate - Tỷ lệ chuyển đổi - 转化率
+- Overview - Tổng quan - 概览
+
+## Quản lý sản phẩm - Product Management - 商品管理
+- Product Management - Quản lý sản phẩm - 商品管理
+- Search Products - Tìm kiếm sản phẩm - 搜索商品
+- Add Product - Thêm sản phẩm - 添加商品
+- Search products... - Tìm kiếm sản phẩm... - 搜索商品...
+- Add Product - Thêm sản phẩm - 添加商品
+- Category - Danh mục - 分类
+- Product - Sản phẩm - 商品
+- Price - Giá - 价格
+- Stock / Inventory - Kho - 库存
+- Status - Trạng thái - 状态
+- Actions - Hành động - 操作
+- Product Code / SKU - Mã sản phẩm - 商品编码 / SKU
+- Product Description - Mô tả sản phẩm - 商品描述
+- Product Images - Hình ảnh sản phẩm - 商品图片
+- Attributes - Thuộc tính - 属性
+- Variants - Biến thể - 变体
+- Import Stock / Goods Receipt - Nhập hàng - 商品入库 / 进货
+- Export Stock / Goods Issue - Xuất hàng - 商品出库 / 发货
+- Unit - Đơn vị tính - 单位
+- Supplier - Nhà cung cấp - 供应商
+- Reviews / Ratings - Đánh giá - 评价 / 评分
+
+## Quản lý đơn hàng - Order Management - 订单管理
+- Order Management - Quản lý đơn hàng - 订单管理
+- Order List - Danh sách đơn hàng - 订单列表
+- Order Details - Chi tiết đơn hàng - 订单详情
+- Order Status - Trạng thái đơn hàng - 订单状态
+- Order ID - Mã đơn hàng - 订单号
+- Order Date - Ngày đặt hàng - 下单日期
+- Customer - Khách hàng - 客户
+- Shipping Address - Địa chỉ giao hàng - 收货地址
+- Shipping Method - Phương thức vận chuyển - 配送方式
+- Payment Method - Phương thức thanh toán - 支付方式
+- Total Amount - Tổng tiền - 总金额
+- Notes - Ghi chú - 备注
+- Order History - Lịch sử đơn hàng - 订单历史
+- Invoice - Hóa đơn - 发票
+- Shipping Label / Waybill - Vận đơn - 运单
+- New Order - Đơn hàng mới - 新订单
+- Refund - Hoàn tiền - 退款
+- Exchange/Return - Đổi/trả hàng - 换货/退货
+
+## Quản lý người dùng - User Management - 用户管理
+- User Management - Quản lý người dùng - 用户管理
+- User List - Danh sách người dùng - 用户列表
+- User Information - Thông tin người dùng - 用户信息
+- Permissions / Roles - Quyền hạn - 权限 / 角色
+- User Group - Nhóm người dùng - 用户组
+- Assign Permissions / Role Assignment - Phân quyền - 分配权限
+- Lock Account / Deactivate Account - Khóa tài khoản - 锁定账户 / 停用账户
+- Unlock Account / Activate Account - Mở khóa tài khoản - 解锁账户 / 启用账户
+- Reset Password - Đặt lại mật khẩu - 重置密码
+- Activity History / Log - Lịch sử hoạt động - 活动历史 / 日志
+- Loyal Customer / VIP Customer - Khách hàng thân thiết - 忠实客户 / VIP客户
+- Potential Customer / Lead - Khách hàng tiềm năng - 潜在客户
+- Blacklist - Danh sách đen - 黑名单
+
+## Báo cáo - Reports - 报告
+- Sales Report - Báo cáo bán hàng - 销售报告
+- Category Management - Quản lý danh mục - 分类管理 (Context: Usually under Products, not Reports)
+- Product Details - Chi tiết sản phẩm - 商品详情 (Context: Usually under Products, not Reports)
+- Total Products - Tổng số sản phẩm - 商品总数
+- Out of Stock - Hết hàng - 缺货
+- Low Stock Warning - Cảnh báo hàng sắp hết - 低库存警告
+- New Products - Sản phẩm mới - 新商品
+- Order Status - Trạng thái đơn hàng - 订单状态
+- Order Details - Chi tiết đơn hàng - 订单详情
+- Total Orders - Tổng đơn hàng - 订单总数
+- Average Order Value - Giá trị đơn hàng trung bình - 平均订单价值
+- Today - Hôm nay - 今天
+- Cancelled - Đã hủy - 已取消
+- Revenue Report - Báo cáo doanh thu - 营收报告
+- Profit Report - Báo cáo lợi nhuận - 利润报告
+- Inventory Report - Báo cáo tồn kho - 库存报告
+- Customer Report - Báo cáo khách hàng - 客户报告
+- Staff Report / Employee Report - Báo cáo nhân viên - 员工报告
+- Marketing Report - Báo cáo marketing - 营销报告
+- Shipping Report - Báo cáo vận chuyển - 运输报告
+- Tax Report - Báo cáo thuế - 税务报告
+- Export Report - Xuất báo cáo - 导出报告
+
+## Danh mục sản phẩm - Product Categories - 商品分类
+- Electronics - Điện tử - 电子产品
+- Laptops - Máy tính xách tay - 笔记本电脑
+- Tablets - Máy tính bảng - 平板电脑
+- Accessories - Phụ kiện - 配件
+- Monitors - Màn hình - 显示器
+- Phones - Điện thoại - 手机
+- Laptops - Laptop - 笔记本电脑
+- Fashion - Thời trang - 时尚
+- Shoes - Giày dép - 鞋类
+- Bags - Túi xách - 箱包
+- Watches - Đồng hồ - 手表
+- Jewelry - Trang sức - 珠宝
+- Cosmetics / Beauty - Mỹ phẩm - 美妆 / 化妆品
+- Health - Sức khỏe - 健康
+- Home & Living - Nhà cửa - 家居
+- Home Appliances - Đồ gia dụng - 家用电器
+- Food - Thực phẩm - 食品
+- Toys - Đồ chơi - 玩具
+- Books - Sách - 图书
+- Sports - Thể thao - 运动
+- Tools - Dụng cụ - 工具
+
+## Thông tin sản phẩm - Product Information - 商品信息
+- iPhone 13 Phone - Điện thoại iPhone 13 - iPhone 13 手机
+- Black, White +1 (Color) - Đen, Trắng +1 (Màu sắc) - 黑色, 白色 +1 (颜色)
+- Dell XPS 13 Laptop - Laptop Dell XPS 13 - Dell XPS 13 笔记本电脑
+- AirPods Pro Earphones - Tai nghe AirPods Pro - AirPods Pro 耳机
+- Samsung Galaxy S22 - Samsung Galaxy S22 - 三星 Galaxy S22
+- iPad Air - iPad Air - iPad Air
+- Gray, Silver +2 (Color) - Xám, Bạc +2 (Màu sắc) - 灰色, 银色 +2 (颜色)
+- Size - Kích thước - 尺寸 / 尺码
+- Weight - Trọng lượng - 重量
+- Capacity - Dung lượng - 容量
+- Memory - Bộ nhớ - 内存
+- Configuration / Specs - Cấu hình - 配置 / 规格
+- Origin - Xuất xứ - 产地
+- Warranty - Bảo hành - 保修
+- Material - Chất liệu - 材质
+- Specifications - Thông số kỹ thuật - 技术规格
+
+## Giá và Giảm giá - Price and Discounts - 价格与折扣
+- 24,990,000 đ - 24.990.000 đ - 24,990,000 ₫
+- 29,990,000 đ - 29.990.000 đ - 29,990,000 ₫
+- -16% (Discount Percentage) - -16% (Phần trăm giảm giá) - -16% (折扣百分比)
+- 32,490,000 đ - 32.490.000 đ - 32,490,000 ₫
+- 4,990,000 đ - 4.990.000 đ - 4,990,000 ₫
+- 6,790,000 đ - 6.790.000 đ - 6,790,000 ₫
+- -26% (Discount Percentage) - -26% (Phần trăm giảm giá) - -26% (折扣百分比)
+- 19,990,000 đ - 19.990.000 đ - 19,990,000 ₫
+- 15,990,000 đ - 15.990.000 đ - 15,990,000 ₫
+- Cost Price / Purchase Price - Giá nhập - 成本价 / 进货价
+- Selling Price - Giá bán - 售价
+- Promotional Price / Sale Price - Giá khuyến mãi - 促销价 / 折扣价
+- Profit - Lợi nhuận - 利润
+- Tax - Thuế - 税费
+- Original Price / Cost Price - Giá gốc - 原价 / 成本价
+- List Price / Retail Price - Giá niêm yết - 标价 / 零售价
+- Currency - Tiền tệ - 货币
+- Currency Unit - Đơn vị tiền - 货币单位
+
+## Số lượng tồn kho - Inventory Quantity - 库存数量
+- 25 (iPhone 13) - 25 (iPhone 13) - 25 (iPhone 13)
+- 12 (Dell XPS 13) - 12 (Dell XPS 13) - 12 (Dell XPS 13)
+- 50 (AirPods Pro) - 50 (AirPods Pro) - 50 (AirPods Pro)
+- 18 (Samsung Galaxy S22) - 18 (Samsung Galaxy S22) - 18 (三星 Galaxy S22)
+- 15 (iPad Air) - 15 (iPad Air) - 15 (iPad Air)
+- Minimum Quantity - Số lượng tối thiểu - 最低数量
+- Maximum Quantity - Số lượng tối đa - 最高数量
+- Reorder Point - Đặt hàng khi còn - 再订货点
+- Inventory / Stock - Kho hàng - 库存
+- Warehouse Location - Vị trí kho - 仓库位置
+- Stock Out / Goods Issue - Xuất kho - 出库
+- Stock In / Goods Receipt - Nhập kho - 入库
+- Stocktake / Inventory Check - Kiểm kho - 库存盘点
+- Inventory Adjustment - Điều chỉnh kho - 库存调整
+
+## Trạng thái đơn hàng - Order Status - 订单状态
+- Pending - Đang chờ xử lý - 待处理
+- Shipped - Đã giao hàng (cho vận chuyển) - 已发货
+- Delivered - Đã giao (đến khách) - 已送达 / 已签收
+- Cancelled - Đã hủy - 已取消
+- Processing - Đang xử lý - 处理中
+- Confirmed - Đã xác nhận - 已确认
+- Packing - Đang đóng gói - 打包中
+- Packed - Đã đóng gói - 已打包
+- Shipped / Dispatched - Đã xuất kho - 已发货
+- In Transit / Shipping - Đang vận chuyển - 运输中
+- Completed - Đã hoàn thành - 已完成
+- Refunded - Đã hoàn tiền - 已退款
+- Exchanged/Returned - Đã đổi/trả - 已换货/已退货
+- Problem / Issue - Có vấn đề - 有问题
+- Awaiting Payment - Chờ thanh toán - 等待付款
+- Paid - Đã thanh toán - 已付款
+
+## Trạng thái sản phẩm - Product Status - 商品状态
+- New (New Product) - Mới (Sản phẩm mới) - 新品
+- Best Selling (Best Selling Product) - Bán chạy (Sản phẩm bán chạy) - 热销
+- Featured (Featured Product) - Nổi bật (Sản phẩm nổi bật) - 精选 / 特色
+- In Stock - Còn hàng - 有货
+- Out of Stock - Hết hàng - 缺货 / 无货
+- Low Stock - Sắp hết hàng - 库存不足 / 低库存
+- Discontinued - Ngừng kinh doanh - 已下架 / 停售
+- Updating - Đang cập nhật - 更新中
+- Coming Soon - Sắp ra mắt - 即将推出
+- Pre-order - Đặt trước - 预购
+- On Sale / Discounted - Giảm giá - 促销中 / 折扣中
+- Promotion - Khuyến mãi - 促销中
+- Sample / Demo - Hàng mẫu - 样品
+
+## Thời gian trong báo cáo - Timeframe in Reports - 报告时间范围
+- January, February, March, April, May, June, July, August, September, October, November, December - Tháng 1, ..., Tháng 12 - 一月, 二月, ..., 十二月
+- Q1, Q2, Q3, Q4 - Quý 1, Quý 2, Quý 3, Quý 4 - 第一季度, 第二季度, 第三季度, 第四季度
+- First Half Year - Nửa đầu năm - 上半年
+- Second Half Year - Nửa cuối năm - 下半年
+- Today - Hôm nay - 今天
+- Yesterday - Hôm qua - 昨天
+- This Week - Tuần này - 本周
+- Last Week - Tuần trước - 上周
+- This Month - Tháng này - 本月
+- Last Month - Tháng trước - 上个月
+- This Year - Năm nay - 今年
+- Last Year - Năm trước - 去年
+- Last 7 Days - 7 ngày qua - 最近7天
+- Last 30 Days - 30 ngày qua - 最近30天
+- Last 90 Days - 90 ngày qua - 最近90天
+- Custom Range - Khoảng thời gian tùy chỉnh - 自定义范围
+- From Date - To Date - Từ ngày - đến ngày - 从日期 - 到日期
+
+## Các giá trị thống kê - Statistical Values - 统计数值
+- 1,234,560,000 ₫ (Total Revenue) - 1.234.560.000 ₫ (Tổng doanh thu) - 1,234,560,000 ₫ (总营收)
+- 254 (Number of Orders) - 254 (Số đơn hàng) - 254 (订单数)
+- 182 (Number of Products) - 182 (Số sản phẩm) - 182 (商品数)
+- 2,137 (Number of Users) - 2.137 (Số người dùng) - 2,137 (用户数)
+- 4,860,000 ₫ (Average Order Value) - 4.860.000 ₫ (Giá trị đơn hàng trung bình) - 4,860,000 ₫ (平均订单价值)
+- 8 (Out of Stock Products) - 8 (Sản phẩm hết hàng) - 8 (缺货商品)
+- 15 (Low Stock Products) - 15 (Sản phẩm sắp hết hàng) - 15 (低库存商品)
+- 24 (New Products) - 24 (Sản phẩm mới) - 24 (新商品)
+- 12 (Orders Today) - 12 (Đơn hàng hôm nay) - 12 (今日订单)
+- 4.7% (Cancellation Rate) - 4,7% (Tỷ lệ đơn hủy) - 4.7% (取消率)
+- Total Cost - Tổng chi phí - 总成本
+- Gross Profit - Lợi nhuận gộp - 毛利润
+- Net Profit - Lợi nhuận ròng - 净利润
+- Profit Margin - Tỷ suất lợi nhuận - 利润率
+- Shipping Cost - Chi phí vận chuyển - 运费成本
+- Marketing Cost - Chi phí marketing - 营销成本
+- Conversion Rate - Tỷ lệ chuyển đổi - 转化率
+- Fulfillment Rate - Tỷ lệ hoàn thành - 完成率
+- Cancellation Rate - Tỷ lệ hủy đơn - 取消率
+- Average Time (e.g., processing time) - Thời gian trung bình - 平均时间
+
+## Bản quyền và thông tin khác - Copyright and Other Information - 版权与其他信息
+- © 2023 (Copyright) - © 2023 (Bản quyền) - © 2023 (版权所有)
+- Version - Phiên bản - 版本
+- Terms of Use - Điều khoản sử dụng - 使用条款
+- Privacy Policy - Chính sách bảo mật - 隐私政策
+- Help - Trợ giúp - 帮助
+- Contact - Liên hệ - 联系方式
+- About Us - Về chúng tôi - 关于我们
+- Partners - Đối tác - 合作伙伴
+- Blog - Blog - 博客
+
+## Tình trạng thay đổi - Change Status / Trend - 变化状态 / 趋势
+- 12% (Revenue Increase) - 12% (Tăng doanh thu) - 12% (营收增长)
+- 8% (Order Increase) - 8% (Tăng đơn hàng) - 8% (订单增长)
+- 5% (Product Increase) - 5% (Tăng sản phẩm) - 5% (商品增长)
+- 18% (User Increase) - 18% (Tăng người dùng) - 18% (用户增长)
+- Increase - Tăng - 增长 / 上升
+- Decrease - Giảm - 减少 / 下降
+- No Change - Không đổi - 无变化
+- Compared to Previous Period - So với kỳ trước - 与上期相比
+- Compared to Same Period Last Year - So với cùng kỳ năm trước - 与去年同期相比
+- Growth - Tăng trưởng - 增长
+- Trend - Xu hướng - 趋势
+
+## Các tab trong báo cáo - Report Tabs - 报告选项卡
+- Revenue - Doanh thu - 营收
+- Products - Sản phẩm - 商品
+- Orders - Đơn hàng - 订单
+- Customers - Khách hàng - 客户
+- Marketing - Marketing - 营销
+- Inventory - Kho hàng - 库存
+- Finance - Tài chính - 财务
+- Overview - Tổng quan - 概览
+- Details - Chi tiết - 详情
+- Chart - Biểu đồ - 图表
+- Table - Bảng - 表格
+
+## Nút và hành động - Buttons and Actions - 按钮与操作
+- Edit (Pencil icon) - Chỉnh sửa - 编辑 (铅笔图标)
+- Delete (Trash icon) - Xóa - 删除 (垃圾桶图标)
+- Add New - Thêm mới - 新增 / 添加
+- Save - Lưu - 保存
+- Cancel - Hủy - 取消
+- Confirm - Xác nhận - 确认
+- Back - Quay lại - 返回
+- Continue / Next - Tiếp tục - 继续 / 下一步
+- Upload - Tải lên - 上传
+- Download - Tải xuống - 下载
+- Export - Xuất - 导出
+- Import - Nhập - 导入
+- Refresh - Làm mới - 刷新
+- Search - Tìm kiếm - 搜索
+- Filter - Lọc - 筛选
+- Sort - Sắp xếp - 排序
+- View - Xem - 查看
+- Hide - Ẩn - 隐藏
+- Close - Đóng - 关闭
+- Open - Mở - 打开
+- Print - In - 打印
+
+## Thông tin người dùng - User Information - 用户信息
+- Username - Tên đăng nhập - 用户名
+- Password - Mật khẩu - 密码
+- Email - Email - 邮箱
+- Phone Number - Số điện thoại - 手机号码
+- Address - Địa chỉ - 地址
+- Full Name - Họ và tên - 姓名
+- Join Date / Registration Date - Ngày tham gia - 加入日期 / 注册日期
+- Gender - Giới tính - 性别
+- Date of Birth - Ngày sinh - 出生日期
+- Avatar / Profile Picture - Ảnh đại diện - 头像
+- Position / Title - Chức vụ - 职位
+- Department - Phòng ban - 部门
+- Permissions / Role - Quyền hạn - 权限 / 角色
+- Account Status - Trạng thái tài khoản - 账户状态
+- Last Login - Lần đăng nhập cuối - 上次登录
+- Employee ID - Mã nhân viên - 员工ID
+- User Group - Nhóm người dùng - 用户组
+
+## Ngày và thời gian - Date and Time - 日期与时间
+- Today - Hôm nay - 今天
+- Yesterday - Hôm qua - 昨天
+- This Week - Tuần này - 本周
+- Last Week - Tuần trước - 上周
+- This Month - Tháng này - 本月
+- Last Month - Tháng trước - 上个月
+- This Year - Năm nay - 今年
+- Last Year - Năm trước - 去年
+- Creation Date - Ngày tạo - 创建日期
+- Update Date - Ngày cập nhật - 更新日期
+- Expiry Date - Ngày hết hạn - 过期日期 / 失效日期
+- Start Time - Thời gian bắt đầu - 开始时间
+- End Time - Thời gian kết thúc - 结束时间
+- Time Period / Range - Khoảng thời gian - 时间段
+- Calendar - Lịch - 日历
+
+## Hoạt động hệ thống - System Activity - 系统活动
+- Login - Đăng nhập - 登录
+- Logout - Đăng xuất - 登出
+- Create / Add New - Thêm mới - 创建 / 新增
+- Update - Cập nhật - 更新
+- Delete - Xóa - 删除
+- View Details - Xem chi tiết - 查看详情
+- Search - Tìm kiếm - 搜索
+- Filter - Lọc - 筛选
+- Sort - Sắp xếp - 排序
+- Export Data - Xuất dữ liệu - 导出数据
+- Import Data - Nhập dữ liệu - 导入数据
+- Backup - Sao lưu - 备份
+- Restore - Khôi phục - 恢复
+- Permission Assignment - Phân quyền - 权限分配
+- System Settings - Cài đặt hệ thống - 系统设置
+- Activity Log - Nhật ký hoạt động - 活动日志
+- System Error - Lỗi hệ thống - 系统错误
+- System Maintenance - Bảo trì hệ thống - 系统维护
+- System Notification - Thông báo hệ thống - 系统通知
+
+## Thông báo - Notifications - 通知
+- New Notification(s) - Thông báo mới - 新通知
+- View All - Xem tất cả - 查看全部
+- Mark as Read - Đánh dấu đã đọc - 标记为已读
+- No Notifications - Không có thông báo - 没有通知
+- New Order - Đơn hàng mới - 新订单
+- Out of Stock - Hết hàng - 商品缺货
+- Low Stock - Sắp hết hàng - 库存不足
+- Payment Successful - Thanh toán thành công - 支付成功
+- System Alert - Cảnh báo hệ thống - 系统警报
+- Order Cancelled - Đơn hàng đã hủy - 订单已取消
+- New Customer - Khách hàng mới - 新客户
+- New Review - Đánh giá mới - 新评价
+- Reminder - Nhắc nhở - 提醒
+
+## Thanh toán - Payment - 支付
+- Payment Method - Phương thức thanh toán - 支付方式
+- Bank Transfer - Chuyển khoản - 银行转账
+- Credit Card - Thẻ tín dụng - 信用卡
+- E-wallet - Ví điện tử - 电子钱包
+- Cash - Tiền mặt - 现金
+- Cash on Delivery (COD) - Thanh toán khi nhận hàng - 货到付款 (COD)
+- Payment Status - Trạng thái thanh toán - 支付状态
+- Paid - Đã thanh toán - 已支付
+- Pending Payment / Awaiting Payment - Chờ thanh toán - 等待支付
+- Payment Failed - Thanh toán thất bại - 支付失败
+- Refund - Hoàn tiền - 退款
+- Invoice - Hóa đơn - 发票
+- Receipt - Biên lai - 收据
+- Transaction ID - Mã giao dịch - 交易ID
+- Bank - Ngân hàng - 银行
+- Account Number - Số tài khoản - 账号
+- Account Holder - Chủ tài khoản - 账户持有人
+- Payment Fee - Phí thanh toán - 支付手续费
+
+## Marketing - Marketing - 营销
+- Campaign - Chiến dịch - 营销活动
+- Discount Code / Coupon Code - Mã giảm giá - 折扣码 / 优惠券码
+- Promotion - Khuyến mãi - 促销活动
+- Advertisement - Quảng cáo - 广告
+- Email Marketing - Email marketing - 邮件营销
+- SMS Marketing - SMS marketing - 短信营销
+- Social Media - Mạng xã hội - 社交媒体
+- SEO (Search Engine Optimization) - SEO - SEO (搜索引擎优化)
+- Affiliate Partner - Đối tác liên kết - 联盟伙伴
+- Referral - Giới thiệu - 推荐
+- Banner - Banner - 横幅广告
+- Popup - Popup - 弹窗广告
+- Survey - Khảo sát - 调查问卷
+- Customer Analytics - Phân tích khách hàng - 客户分析
+- Customer Segmentation - Phân khúc khách hàng - 客户细分
+- Conversion Rate - Tỷ lệ chuyển đổi - 转化率
+- Marketing Cost - Chi phí marketing - 营销成本
+- ROI (Return on Investment) - ROI - ROI (投资回报率)
+
+## Cài đặt hệ thống - System Settings - 系统设置
+- General Settings - Cài đặt chung - 常规设置
+- Store Settings - Cài đặt cửa hàng - 店铺设置
+- Email Settings - Cài đặt email - 邮件设置
+- Shipping Settings - Cài đặt vận chuyển - 配送设置 / 运输设置
+- Payment Settings - Cài đặt thanh toán - 支付设置
+- Tax Settings - Cài đặt thuế - 税务设置
+- Security Settings - Cài đặt bảo mật - 安全设置
+- Notification Settings - Cài đặt thông báo - 通知设置
+- Integration Settings - Cài đặt tích hợp - 集成设置
+- Backup Settings - Cài đặt sao lưu - 备份设置
+- Language Settings - Cài đặt ngôn ngữ - 语言设置
+- Appearance Settings / Theme Settings - Cài đặt giao diện - 外观设置 / 主题设置
+- Users and Permissions - Người dùng và quyền - 用户与权限
+- API Settings - Cài đặt API - API设置
+- Email Templates - Mẫu email - 邮件模板
+- SMS Templates - Mẫu SMS - 短信模板
+- Invoice Templates - Mẫu hóa đơn - 发票模板
+- Shipping Label Templates / Waybill Templates - Mẫu vận đơn - 运单模板

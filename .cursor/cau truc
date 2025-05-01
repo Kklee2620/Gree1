@@ -1,0 +1,227 @@
+
+# Cấu trúc dự án eCommerce
+
+Dự án được tổ chức theo mô hình microservice, với 3 thành phần chính hoạt động độc lập, mỗi thành phần có cấu trúc và mục đích riêng.
+
+## Cấu trúc thư mục gốc
+
+```
+ecommerce-project/
+├── admin/              # Ứng dụng quản trị viên
+├── frontend/           # Giao diện người dùng 
+├── backend/            # API server
+├── database/           # Cấu trúc và script cơ sở dữ liệu
+├── deploy/             # Script và hướng dẫn triển khai
+├── package.json        # Cấu hình chung cho dự án
+├── start-all.sh        # Script khởi động toàn bộ hệ thống
+├── start-admin.sh      # Script khởi động admin
+├── start-frontend.sh   # Script khởi động frontend
+├── start-backend.sh    # Script khởi động backend
+├── stop-all.sh         # Script dừng toàn bộ hệ thống
+└── requirements.md     # Tài liệu yêu cầu và mô tả dự án
+```
+
+## 1. Phần Admin (admin/)
+
+```
+admin/
+├── public/             # Tài nguyên tĩnh
+├── src/                # Mã nguồn
+│   ├── App.tsx         # Component gốc của ứng dụng
+│   ├── App.css         # Style chính
+│   ├── i18n/           # Cấu hình đa ngôn ngữ
+│   ├── pages/          # Các trang trong admin
+│   │   ├── AdminPages.tsx  # Các trang quản trị cơ bản
+│   │   ├── DashboardPage.tsx  # Trang tổng quan
+│   │   ├── DealsPage.tsx      # Trang quản lý khuyến mãi
+│   │   └── LivestreamsPage.tsx  # Trang quản lý livestream
+│   └── index.tsx       # Điểm khởi đầu ứng dụng
+├── package.json        # Quản lý dependencies
+└── tsconfig.json       # Cấu hình TypeScript
+```
+
+**Đặc điểm:**
+- Sử dụng React + TypeScript
+- Routing với React Router
+- Hỗ trợ i18n (đa ngôn ngữ)
+- Giao diện quản trị đầy đủ cho tất cả chức năng
+
+## 2. Phần Frontend (frontend/)
+
+```
+frontend/
+├── public/             # Tài nguyên tĩnh
+├── src/                # Mã nguồn
+│   ├── App.tsx         # Component gốc
+│   ├── App.css         # Style chính
+│   ├── contexts/       # Context API cho quản lý state
+│   │   └── AuthContext.tsx  # Quản lý xác thực
+│   ├── i18n/           # Cấu hình đa ngôn ngữ
+│   ├── utils/          # Tiện ích
+│   │   └── api.ts      # Cấu hình và kết nối API
+│   └── index.tsx       # Điểm khởi đầu ứng dụng
+├── package.json        # Quản lý dependencies
+└── tsconfig.json       # Cấu hình TypeScript
+```
+
+**Đặc điểm:**
+- Sử dụng React + TypeScript
+- Thiết kế theo hướng người dùng cuối
+- Hỗ trợ đa ngôn ngữ
+- Tập trung vào trải nghiệm mua sắm
+
+## 3. Phần Backend (backend/)
+
+```
+backend/
+├── src/                # Mã nguồn
+│   ├── server.js       # Điểm khởi đầu server
+│   ├── middlewares/    # Các middleware xử lý request
+│   └── routes/         # Định nghĩa API endpoints
+│       ├── categories.js  # API quản lý danh mục
+│       ├── content.js     # API quản lý nội dung
+│       ├── coupons.js     # API quản lý mã giảm giá
+│       ├── orders.js      # API quản lý đơn hàng
+│       ├── payments.js    # API thanh toán
+│       ├── products.js    # API sản phẩm
+│       ├── reports.js     # API báo cáo
+│       ├── settings.js    # API cài đặt hệ thống
+│       ├── shipping.js    # API vận chuyển
+│       └── users.js       # API người dùng
+└── package.json        # Quản lý dependencies
+```
+
+**Đặc điểm:**
+- Node.js/Express framework
+- API RESTful
+- Sử dụng PostgreSQL làm cơ sở dữ liệu
+- Redis để caching và quản lý phiên
+- Elasticsearch cho tìm kiếm nâng cao
+- JWT cho xác thực
+
+## 4. Phần Database (database/)
+
+```
+database/
+└── schema.sql          # Script tạo schema cơ sở dữ liệu
+```
+
+**Đặc điểm:**
+- PostgreSQL
+- Cấu trúc cơ sở dữ liệu đầy đủ cho hệ thống eCommerce
+- Quan hệ giữa các bảng được định nghĩa rõ ràng
+
+## 5. Phần Deploy (deploy/)
+
+```
+deploy/
+├── admin/              # Cấu hình triển khai admin
+├── backend/            # Cấu hình triển khai backend
+├── frontend/           # Cấu hình triển khai frontend
+├── README.md           # Hướng dẫn triển khai
+├── WINDOWS_DEPLOYMENT.md  # Hướng dẫn triển khai trên Windows
+├── start-all.sh        # Script khởi động
+└── stop-all.sh         # Script dừng
+```
+
+**Đặc điểm:**
+- Script triển khai cho cả Linux và Windows
+- Hướng dẫn chi tiết quy trình triển khai
+- Cấu hình môi trường
+
+## Luồng dữ liệu và tương tác
+
+1. **Frontend** gửi request đến Backend API
+2. **Backend** xác thực, xử lý logic nghiệp vụ, tương tác với Database
+3. **Admin** gửi request quản trị đến Backend API
+4. **Backend** phân quyền và xử lý yêu cầu từ Admin
+
+## Quản lý State và Xác thực
+
+- Frontend sử dụng Context API (AuthContext) để quản lý trạng thái đăng nhập
+- Axios interceptors được cấu hình để tự động gửi token trong header
+- Middleware Backend xác thực token và phân quyền
+
+Đây là cấu trúc tổng quan của dự án, được thiết kế theo hướng microservice, module hóa cao, giúp việc phát triển và bảo trì dễ dàng hơn.
+
+Kế hoạch chi tiết
+Giai đoạn 1: Chuẩn bị và lập kế hoạch 
+Sao lưu dự án hiện tại
+Tạo bản sao lưu toàn bộ dự án
+Tạo nhánh git mới cho việc tái cấu trúc
+Phân tích dependencies
+Xác định các dependencies chung và riêng cho từng thành phần
+Lập danh sách các shared modules cần tách riêng
+Thiết kế cấu trúc thư mục mới
+Xác định cấu trúc thư mục chi tiết cho mỗi thành phần
+Lập kế hoạch di chuyển code
+Giai đoạn 2: Tái cấu trúc Backend 
+Cải thiện cấu trúc Backend
+Tổ chức lại thư mục server/ theo mô hình đề xuất
+Thêm layer services để tách biệt logic nghiệp vụ khỏi controllers
+Loading...
+Tạo thư mục Database
+Tạo thư mục database/ để quản lý schema và migrations
+Di chuyển các script liên quan đến database vào thư mục này
+Loading...
+Cập nhật API endpoints
+Đảm bảo tất cả API endpoints đều có prefix rõ ràng (ví dụ: /api/v1/...)
+Chuẩn hóa cấu trúc response API
+Kiểm thử Backend
+Viết tests cho các API endpoints
+Đảm bảo backend hoạt động độc lập
+Giai đoạn 3: Tách Frontend và Admin 
+Tạo cấu trúc thư mục cho Frontend
+Tạo thư mục frontend/
+Di chuyển code từ src/ sang frontend/src/
+Loading...
+Tạo cấu trúc thư mục cho Admin
+Tạo thư mục admin/
+Tạo cấu trúc cơ bản cho admin panel
+Loading...
+Tách biệt code Admin từ Frontend
+Xác định các trang và components liên quan đến admin
+Di chuyển code admin từ frontend sang thư mục admin
+Cập nhật các imports và dependencies
+Cập nhật cấu hình build
+Tạo file vite.config.ts cho cả frontend và admin
+Cập nhật cấu hình proxy API cho cả hai
+Giai đoạn 4: Tạo thư mục Deploy và Scripts 
+Tạo thư mục Deploy
+Loading...
+Tạo Root package.json
+Tạo file package.json ở thư mục gốc
+Cấu hình workspaces và scripts chung
+Tạo scripts triển khai
+Viết các scripts để khởi động và dừng từng thành phần
+Viết script để khởi động toàn bộ hệ thống
+Giai đoạn 5: Kiểm thử và Tối ưu hóa 
+Kiểm thử tích hợp
+Kiểm tra tương tác giữa các thành phần
+Đảm bảo API endpoints hoạt động đúng
+Tối ưu hóa build và deployment
+Cấu hình CI/CD pipeline
+Tối ưu hóa quá trình build
+Cập nhật tài liệu
+Cập nhật README.md với cấu trúc mới
+Viết hướng dẫn phát triển và triển khai
+Lịch trình thực hiện
+Giai đoạn	Thời gian	Mục tiêu
+1. Chuẩn bị	1-2 ngày	Sao lưu, phân tích, lập kế hoạch
+2. Backend	2-3 ngày	Tái cấu trúc backend, tạo thư mục database
+3. Frontend & Admin	3-4 ngày	Tách biệt frontend và admin
+4. Deploy	1-2 ngày	Tạo scripts và cấu hình triển khai
+5. Kiểm thử & Tối ưu	2-3 ngày	Kiểm thử, tối ưu hóa, cập nhật tài liệu
+Tổng cộng	9-14 ngày	Hoàn thành tái cấu trúc
+Rủi ro và giải pháp
+Rủi ro	Mức độ	Giải pháp
+Mất mát code trong quá trình di chuyển	Cao	Sao lưu kỹ lưỡng, sử dụng git branches
+Các dependencies bị xung đột	Trung bình	Kiểm tra kỹ dependencies trước khi tách
+API endpoints không hoạt động sau khi tái cấu trúc	Cao	Viết tests đầy đủ, kiểm tra từng endpoint
+Thời gian thực hiện kéo dài	Trung bình	Chia nhỏ công việc, ưu tiên các thành phần quan trọng
+Kết quả mong đợi
+Cấu trúc rõ ràng: Mỗi thành phần có cấu trúc và mục đích riêng
+Dễ bảo trì: Code được tổ chức tốt hơn, dễ bảo trì và mở rộng
+Triển khai độc lập: Có thể triển khai từng thành phần một cách độc lập
+Hiệu suất tốt hơn: Tối ưu hóa quá trình build và deployment
+Tài liệu đầy đủ: Hướng dẫn phát triển và triển khai rõ ràng

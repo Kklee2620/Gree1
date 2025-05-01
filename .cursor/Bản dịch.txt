@@ -1,0 +1,235 @@
+Bảng Thuật Ngữ Anh - Việt cho Phát Triển Web và Thương Mại Điện Tử
+A
+Tiếng Anh	Tiếng Việt
+Access Control	Kiểm soát truy cập
+Admin Dashboard	Bảng điều khiển quản trị
+API (Application Programming Interface)	Giao diện lập trình ứng dụng
+Authentication	Xác thực
+Authorization	Ủy quyền
+B
+Tiếng Anh	Tiếng Việt
+Backend	Phần máy chủ
+Batch Processing	Xử lý hàng loạt
+Boundary	Ranh giới
+Browser	Trình duyệt
+Build	Xây dựng
+C
+Tiếng Anh	Tiếng Việt
+Cache	Bộ nhớ đệm
+Category	Danh mục
+Category Management	Quản lý danh mục
+CORS (Cross-Origin Resource Sharing)	Chia sẻ tài nguyên giữa các nguồn gốc khác nhau
+CSRF (Cross-Site Request Forgery)	Giả mạo yêu cầu trên nhiều trang
+Component	Thành phần
+Configuration	Cấu hình
+Connection	Kết nối
+Controller	Bộ điều khiển
+Cookie	Cookie
+Credentials	Thông tin đăng nhập
+CRUD (Create, Read, Update, Delete)	Tạo, Đọc, Cập nhật, Xóa
+D
+Tiếng Anh	Tiếng Việt
+Database	Cơ sở dữ liệu
+Data Model	Mô hình dữ liệu
+Debugging	Gỡ lỗi
+Dependency	Phụ thuộc
+Deployment	Triển khai
+Development	Phát triển
+Docker	Docker
+Docker Compose	Docker Compose
+DOM (Document Object Model)	Mô hình đối tượng tài liệu
+Dropdown Menu	Menu thả xuống
+E
+Tiếng Anh	Tiếng Việt
+E-commerce	Thương mại điện tử
+Environment	Môi trường
+Environment Variables	Biến môi trường
+Error Boundary	Ranh giới lỗi
+Error Handling	Xử lý lỗi
+ESLint	ESLint
+Express	Express
+F
+Tiếng Anh	Tiếng Việt
+Feature	Tính năng
+Fetch	Lấy dữ liệu
+File Upload	Tải lên tệp
+Filter	Bộ lọc
+Foreign Key	Khóa ngoại
+Form	Biểu mẫu
+Framework	Framework
+Frontend	Phần giao diện người dùng
+G
+Tiếng Anh	Tiếng Việt
+Git	Git
+GitHub	GitHub
+H
+Tiếng Anh	Tiếng Việt
+Header	Tiêu đề
+Health Check	Kiểm tra trạng thái
+Helmet	Helmet
+Hook	Hook
+HTTP	HTTP
+I
+Tiếng Anh	Tiếng Việt
+i18n (Internationalization)	Quốc tế hóa
+IDE (Integrated Development Environment)	Môi trường phát triển tích hợp
+Image	Hình ảnh
+Index	Chỉ mục
+Inventory	Kho hàng
+Inventory Management	Quản lý kho hàng
+J
+Tiếng Anh	Tiếng Việt
+JavaScript	JavaScript
+JSON (JavaScript Object Notation)	Ký hiệu đối tượng JavaScript
+JWT (JSON Web Token)	Token web JSON
+L
+Tiếng Anh	Tiếng Việt
+Layout	Bố cục
+Library	Thư viện
+Lifecycle	Vòng đời
+Logging	Ghi nhật ký
+Login	Đăng nhập
+M
+Tiếng Anh	Tiếng Việt
+Maintenance	Bảo trì
+Marketing	Tiếp thị
+Middleware	Phần mềm trung gian
+Migration	Di chuyển dữ liệu
+Model	Mô hình
+MongoDB	MongoDB
+Morgan	Morgan
+N
+Tiếng Anh	Tiếng Việt
+Navigation	Điều hướng
+Node.js	Node.js
+NPM (Node Package Manager)	Trình quản lý gói Node
+O
+Tiếng Anh	Tiếng Việt
+Order	Đơn hàng
+Order Item	Mục đơn hàng
+Order Management	Quản lý đơn hàng
+ORM (Object-Relational Mapping)	Ánh xạ quan hệ đối tượng
+P
+Tiếng Anh	Tiếng Việt
+Package	Gói
+Pagination	Phân trang
+Parameter	Tham số
+Parent-Child Relationship	Quan hệ cha-con
+Password	Mật khẩu
+Path	Đường dẫn
+Permission	Quyền
+PostgreSQL	PostgreSQL
+Primary Key	Khóa chính
+Product	Sản phẩm
+Product Management	Quản lý sản phẩm
+Production	Sản xuất
+Promotion	Khuyến mãi
+Protected Route	Tuyến đường được bảo vệ
+Q
+Tiếng Anh	Tiếng Việt
+Query	Truy vấn
+R
+Tiếng Anh	Tiếng Việt
+Rate Limiting	Giới hạn tốc độ
+React	React
+React Hook Form	React Hook Form
+React Query	React Query
+React Router	React Router
+Recharts	Recharts
+Refresh Token	Token làm mới
+Repository	Kho lưu trữ
+Request	Yêu cầu
+Response	Phản hồi
+REST API	API REST
+Review	Đánh giá
+Role	Vai trò
+Role-Based Access Control (RBAC)	Kiểm soát truy cập dựa trên vai trò
+Route	Tuyến đường
+Router	Bộ định tuyến
+S
+Tiếng Anh	Tiếng Việt
+Schema	Lược đồ
+Security	Bảo mật
+Sequelize	Sequelize
+Server	Máy chủ
+Session	Phiên
+Setting	Cài đặt
+Shipping	Vận chuyển
+Slug	Slug
+State	Trạng thái
+Static File	Tệp tĩnh
+Store	Cửa hàng
+Subcategory	Danh mục con
+T
+Tiếng Anh	Tiếng Việt
+Tailwind CSS	Tailwind CSS
+Template	Mẫu
+Testing	Kiểm thử
+Token	Token
+Typescript	Typescript
+U
+Tiếng Anh	Tiếng Việt
+UI (User Interface)	Giao diện người dùng
+Unauthorized	Không được phép
+Upload	Tải lên
+URL (Uniform Resource Locator)	Định vị tài nguyên thống nhất
+User	Người dùng
+User Management	Quản lý người dùng
+UUID (Universally Unique Identifier)	Định danh duy nhất toàn cầu
+V
+Tiếng Anh	Tiếng Việt
+Validation	Xác thực
+Variable	Biến
+Vite	Vite
+W
+Tiếng Anh	Tiếng Việt
+Warranty	Bảo hành
+Web Application	Ứng dụng web
+Webhook	Webhook
+Z
+Tiếng Anh	Tiếng Việt
+Zod	Zod
+Thuật ngữ Cơ sở dữ liệu
+Tiếng Anh	Tiếng Việt
+Alter	Thay đổi
+Association	Liên kết
+Attribute	Thuộc tính
+Column	Cột
+Constraint	Ràng buộc
+Database Connection	Kết nối cơ sở dữ liệu
+Database Schema	Lược đồ cơ sở dữ liệu
+Foreign Key	Khóa ngoại
+Index	Chỉ mục
+Join	Kết hợp
+Migration	Di chuyển dữ liệu
+Primary Key	Khóa chính
+Query	Truy vấn
+Relationship	Mối quan hệ
+Row	Hàng
+Table	Bảng
+Transaction	Giao dịch
+Unique Constraint	Ràng buộc duy nhất
+Thuật ngữ Docker
+Tiếng Anh	Tiếng Việt
+Container	Container
+Docker	Docker
+Docker Compose	Docker Compose
+Dockerfile	Dockerfile
+Image	Hình ảnh
+Volume	Khối lượng
+Thuật ngữ Bảo mật
+Tiếng Anh	Tiếng Việt
+Authentication	Xác thực
+Authorization	Ủy quyền
+CORS (Cross-Origin Resource Sharing)	Chia sẻ tài nguyên giữa các nguồn gốc khác nhau
+CSRF (Cross-Site Request Forgery)	Giả mạo yêu cầu trên nhiều trang
+Encryption	Mã hóa
+JWT (JSON Web Token)	Token web JSON
+Password Hashing	Băm mật khẩu
+Permission	Quyền
+Rate Limiting	Giới hạn tốc độ
+Role-Based Access Control (RBAC)	Kiểm soát truy cập dựa trên vai trò
+Security Headers	Tiêu đề bảo mật
+Token	Token
+XSS (Cross-Site Scripting)	Tấn công chèn mã
+

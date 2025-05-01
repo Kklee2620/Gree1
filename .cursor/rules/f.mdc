@@ -1,0 +1,90 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Quy tắc Vàng Phát triển Web: Quản lý Client Site qua Admin Panel
+
+Đây là tổng hợp các nguyên tắc cốt lõi để xây dựng hệ thống web bao gồm cả giao diện người dùng (Client Site) và trang quản trị (Admin Panel) một cách hiệu quả, bảo mật và dễ bảo trì. Đặc biệt tập trung vào cách Admin Panel kiểm soát và quản lý dữ liệu hiển thị trên Client Site (sản phẩm, người dùng, nội dung…).
+
+## I. Nguyên tắc Thiết kế & Kiến trúc Tổng thể
+
+1. **KISS (Keep It Simple, Stupid):** Giữ cho cả Client Site và Admin Panel đơn giản nhất có thể trong thiết kế và chức năng. Tránh phức tạp hóa không cần thiết.
+2. **DRY (Don’t Repeat Yourself):** Áp dụng cho cả backend và frontend. Tái sử dụng code logic (services, helpers) và components (UI) ở cả hai nơi nếu có thể và hợp lý.
+3. **Tách Biệt Mối Quan Tâm (SoC):**
+    - **Frontend (Client vs Admin):** Giao diện Client và Admin là hai ứng dụng frontend riêng biệt (hoặc các module riêng biệt lớn) nhưng thường cùng gọi đến một Backend API.
+    - **Backend:** Logic nghiệp vụ, xử lý dữ liệu, và xác thực/phân quyền phải nằm ở backend, không phụ thuộc vào việc request đến từ Client hay Admin.
+    - **API Layer:** Là cầu nối giao tiếp *duy nhất* giữa Frontend (cả Client và Admin) và Backend.
+4. **API-Centric Design:** Thiết kế hệ thống xoay quanh một bộ API backend mạnh mẽ và rõ ràng. Cả Client Site và Admin Panel đều là “người tiêu dùng” (consumers) của API này.
+5. **User-Centric (Cho cả hai phía):**
+    - **Client Site:** Tập trung vào trải nghiệm mua hàng/tương tác mượt mà, trực quan cho khách hàng cuối.
+    - **Admin Panel:** Tập trung vào hiệu quả công việc cho người quản trị (dễ dàng thêm/sửa/xóa dữ liệu, xem báo cáo, quản lý đơn hàng…). Giao diện không cần quá hoa mỹ nhưng phải rõ ràng, logic và giảm thiểu thao tác thừa.
+
+## II. Admin Panel & Client Site Interaction (Trọng tâm)
+
+1. **Backend và Database là Trái tim:** Cả Admin Panel và Client Site đều phải hoạt động dựa trên **cùng một Backend logic và cùng một Cơ sở dữ liệu**. Admin Panel thực hiện các thao tác ghi/cập nhật/xóa (CUD), Client Site chủ yếu thực hiện thao tác đọc (R) và một số thao tác ghi giới hạn (ví dụ: đặt hàng, cập nhật profile).
+2. **API làm Trung gian Tuyệt đối:** Mọi tương tác quản lý từ Admin (thêm sản phẩm, sửa thông tin người dùng, đổi trạng thái đơn hàng) phải được thực hiện thông qua việc gọi các **API endpoints** tương ứng ở Backend. Client Site cũng gọi API để lấy dữ liệu hiển thị (danh sách sản phẩm, chi tiết bài viết…).
+3. **Validation Backend là Bắt buộc (Không tin tưởng BẤT CỨ input nào):** Dữ liệu gửi lên từ **cả Admin Panel và Client Site** đều phải được **validate chặt chẽ ở Backend** trước khi lưu vào CSDL. Đừng bao giờ giả định rằng input từ Admin là “an toàn”.
+4. **Phân Quyền Mạnh Mẽ trong Admin (RBAC - Role-Based Access Control):**
+    - Triển khai hệ thống vai trò (Roles) và quyền hạn (Permissions) chi tiết trong Admin Panel.
+    - **Kiểm tra quyền phải được thực thi ở Backend/API layer**, không chỉ dựa vào việc ẩn/hiện nút trên giao diện Admin.
+    - Ví dụ: Role “Content Editor” chỉ có quyền thêm/sửa sản phẩm/bài viết, không có quyền xem doanh thu hay xóa người dùng. Role “Super Admin” có mọi quyền.
+5. **Workflow và Trạng Thái Dữ Liệu Rõ Ràng:**
+    - Đối với các thực thể như Sản phẩm, Bài viết, Đơn hàng, cần định nghĩa các trạng thái rõ ràng (ví dụ: Sản phẩm: `Draft`, `Pending Review`, `Published`, `Archived`; Đơn hàng: `Pending`, `Processing`, `Shipped`, `Completed`, `Cancelled`, `Refunded`).
+    - Admin Panel quản lý việc chuyển đổi giữa các trạng thái này.
+    - Client Site thường **chỉ hiển thị** dữ liệu ở trạng thái công khai (ví dụ: `Published` products). Logic lọc theo trạng thái này nằm ở Backend API.
+6. **Giao diện Admin Tối ưu cho Quản lý:**
+    - Sử dụng bảng dữ liệu (data tables) với các chức năng tìm kiếm, lọc, sắp xếp mạnh mẽ.
+    - Cung cấp chức năng xử lý hàng loạt (Bulk Actions) cho các tác vụ lặp lại (ví dụ: xóa nhiều sản phẩm, cập nhật trạng thái nhiều đơn hàng).
+    - Form nhập liệu rõ ràng, có hướng dẫn và validate cơ bản ngay trên frontend Admin để cải thiện trải nghiệm người quản trị.
+7. **Audit Logs (Nhật ký Hoạt động):** Ghi lại lịch sử các thay đổi quan trọng được thực hiện trong Admin Panel (ai đã làm gì, khi nào, trên đối tượng nào). Rất quan trọng cho việc truy vết lỗi và trách nhiệm. Ví dụ: “User ‘admin@example.com’ updated product ‘ABC’ at 2023-10-27 10:30:00 UTC”.
+8. **Đảm bảo Tính nhất quán Dữ liệu:** Logic nghiệp vụ ở Backend phải xử lý các ràng buộc và phụ thuộc dữ liệu. Ví dụ: Khi xóa một danh mục sản phẩm, cần xử lý các sản phẩm thuộc danh mục đó như thế nào (gán sang danh mục khác, báo lỗi không cho xóa?).
+
+## III. Chất lượng Code & Bảo trì (Áp dụng cho cả hai)
+
+1. **Code Dễ Đọc:** Viết code rõ ràng, dễ hiểu cho cả phần Client và Admin. Dùng tên biến/hàm/class có ý nghĩa.
+2. **Tuân Thủ Style Guide & Linting:** Sử dụng công cụ như Prettier, ESLint để đảm bảo code nhất quán.
+3. **Refactor Khi Cần:** Cải thiện cấu trúc code, loại bỏ “code smell” ở cả Client và Admin.
+4. **Quản Lý Dependencies:** Giữ các thư viện/framework được cập nhật (có kiểm soát), loại bỏ những thứ không dùng.
+
+## IV. Bảo mật (Đặc biệt quan trọng)
+
+1. **HTTPS Everywhere:** Bắt buộc cho cả Client và Admin.
+2. **Nguyên tắc Đặc Quyền Tối thiểu:** Áp dụng chặt chẽ cho cả người dùng Client (đã đăng nhập) và người dùng Admin (thông qua RBAC).
+3. **Bảo vệ Chống Lại OWASP Top 10:** Áp dụng các biện pháp phòng chống XSS, CSRF, SQL Injection, Broken Authentication, Broken Access Control… cho **cả hai** giao diện và API.
+4. **Xác thực & Ủy quyền Mạnh mẽ:**
+    - Sử dụng cơ chế xác thực an toàn (ví dụ: JWT, Sessions với cờ bảo mật).
+    - Kiểm tra quyền (Authorization) **tại API Backend** cho mọi request, đặc biệt là các request từ Admin Panel.
+5. **Quản lý Secrets An Toàn:** Không hardcode API keys, mật khẩu CSDL… Sử dụng biến môi trường hoặc dịch vụ quản lý secrets.
+
+## V. Testing
+
+1. **Test Toàn Diện:** Viết Unit, Integration, E2E tests cho cả logic Backend, giao diện Client và các workflow quan trọng trong Admin Panel.
+2. **Test Phân Quyền Admin:** Đặc biệt kiểm tra kỹ các trường hợp truy cập trái phép trong Admin Panel (ví dụ: user A cố gắng thực hiện hành động chỉ dành cho user B).
+3. **Test Workflow Quản lý:** Kiểm tra các quy trình chính trong Admin (thêm/sửa/xóa sản phẩm, quản lý đơn hàng…) hoạt động đúng và cập nhật chính xác dữ liệu hiển thị trên Client Site.
+
+## VI. Frontend (Client & Admin)
+
+1. **Performance (Client là chính):** Tối ưu tốc độ tải trang cho Client Site. Admin Panel có thể chấp nhận chậm hơn một chút nhưng vẫn phải đảm bảo hiệu quả công việc.
+2. **Responsive Design (Client là chính):** Client Site phải hoạt động tốt trên mọi thiết bị. Admin Panel thường ưu tiên cho desktop/tablet nhưng cũng nên cân nhắc khả năng truy cập trên mobile.
+3. **Accessibility (Client là chính):** Đảm bảo Client Site tiếp cận được với người dùng khuyết tật.
+4. **Chọn Framework/Thư viện phù hợp:** Lựa chọn công nghệ frontend (React, Vue, Angular…) phù hợp cho cả Client và Admin (có thể dùng chung hoặc khác nhau). Sử dụng các thư viện UI component (Ant Design, Material UI…) có thể tăng tốc độ phát triển Admin Panel.
+
+## VII. Backend & Database
+
+1. **Thiết Kế CSDL Hỗ trợ Cả Hai:** Cấu trúc CSDL phải lưu trữ đủ thông tin để phục vụ cả việc hiển thị trên Client và quản lý trong Admin.
+2. **Tối Ưu Query:** Viết câu lệnh truy vấn hiệu quả, sử dụng indexing phù hợp cho các truy vấn thường dùng từ cả Client và Admin.
+
+## VIII. Triển khai & Vận hành
+
+1. **CI/CD:** Tự động hóa build, test, deploy cho cả Backend, Client Frontend và Admin Frontend.
+2. **Monitoring & Alerting:** Giám sát hiệu năng, lỗi của cả hệ thống (Backend, Client, Admin).
+3. **Backup & Recovery:** Sao lưu CSDL định kỳ và kiểm tra khả năng phục hồi.
+
+---
+
+**Cách sử dụng:**
+
+- **Lưu file:** Lưu nội dung này vào file `.md` (ví dụ: `web_admin_client_rules.md`).
+
+- **Cursor/CLI:** Tích hợp file này vào knowledge base của Cursor hoặc dùng các công cụ CLI để đọc/tìm kiếm khi cần tham khảo nhanh các quy tắc liên quan đến việc xây dựng và quản lý hệ thống web có cả Client Site và Admin Panel.

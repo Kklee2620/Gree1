@@ -1,0 +1,1043 @@
+Chắc chắn rồi, đây là bản dịch các thuật ngữ sang tiếng Việt và tiếng Trung (Giản thể), theo định dạng bạn yêu cầu:
+
+**Lưu ý:** Một số thuật ngữ có thể có nhiều cách dịch tùy thuộc vào ngữ cảnh chính xác trong giao diện người dùng. Các bản dịch được cung cấp ở đây là những bản dịch phổ biến và chung nhất.
+
+## A. Welcome and General - Chào mừng và Chung - 欢迎与通用
+
+### Greetings & Basic Interactions - Chào hỏi & Tương tác Cơ bản - 问候与基本互动
+- Welcome to our website - Chào mừng đến với trang web của chúng tôi - 欢迎访问我们的网站
+- Hello - Xin chào - 你好
+- Goodbye - Tạm biệt - 再见
+- Thank you - Cảm ơn bạn - 谢谢
+- Please - Vui lòng - 请
+- Yes - Có - 是
+- No - Không - 否
+- OK - OK / Đồng ý - 确定
+- Cancel - Hủy - 取消
+- Confirm - Xác nhận - 确认
+- Decline - Từ chối - 拒绝
+- Accept - Chấp nhận - 接受
+- Reject - Bác bỏ / Từ chối - 拒绝 / 驳回
+- Welcome back - Chào mừng trở lại - 欢迎回来
+- Greetings - Lời chào - 问候
+
+### Navigation - Điều hướng - 导航
+- Back - Quay lại - 返回
+- Next - Tiếp theo - 下一步
+- Previous - Trước đó - 上一步
+- Skip - Bỏ qua - 跳过
+- Continue - Tiếp tục - 继续
+- Finish - Hoàn thành - 完成
+- Start - Bắt đầu - 开始
+- End - Kết thúc - 结束
+- Menu - Menu / Thực đơn - 菜单
+- Submenu - Menu con / Thực đơn phụ - 子菜单
+- Navigation bar - Thanh điều hướng - 导航栏
+- Main menu - Menu chính / Thực đơn chính - 主菜单
+- Footer - Chân trang - 页脚
+- Sidebar - Thanh bên - 侧边栏
+
+### Actions - Hành động - 操作
+- Submit - Gửi / Nộp - 提交
+- Reset - Đặt lại - 重置
+- Retry - Thử lại - 重试
+- Save - Lưu - 保存
+- Save Changes - Lưu thay đổi - 保存更改
+- Discard - Hủy bỏ / Bỏ đi - 放弃 / 丢弃
+- Undo - Hoàn tác - 撤销
+- Redo - Làm lại - 重做
+- Edit - Chỉnh sửa - 编辑
+- Delete - Xóa - 删除
+- Remove - Xóa / Gỡ bỏ - 移除
+- Clear - Xóa sạch - 清除
+- Add - Thêm - 添加
+- Create - Tạo mới - 创建
+- Update - Cập nhật - 更新
+- View - Xem - 查看
+- View Details - Xem chi tiết - 查看详情
+- Apply - Áp dụng - 应用
+- Select - Chọn - 选择
+- Choose - Chọn lựa - 选择
+- Upload - Tải lên - 上传
+- Download - Tải xuống - 下载
+- Share - Chia sẻ - 分享
+- Print - In - 打印
+- Copy - Sao chép - 复制
+- Paste - Dán - 粘贴
+- Cut - Cắt - 剪切
+- Find - Tìm kiếm - 查找
+- Replace - Thay thế - 替换
+
+### Information Elements - Các Yếu tố Thông tin - 信息元素
+- Details - Chi tiết - 详情
+- Overview - Tổng quan - 概览
+- Summary - Tóm tắt - 摘要
+- History - Lịch sử - 历史
+- Information - Thông tin - 信息
+- Data - Dữ liệu - 数据
+- Content - Nội dung - 内容
+- Description - Mô tả - 描述
+- Notes - Ghi chú - 备注 / 说明
+- Comments - Bình luận - 评论
+- Feedback - Phản hồi - 反馈
+- Review - Đánh giá - 评论 / 评价
+- Rating - Xếp hạng - 评分
+- Status - Trạng thái - 状态
+- Progress - Tiến trình - 进度
+- Title - Tiêu đề - 标题
+- Subtitle - Phụ đề - 副标题
+- Caption - Chú thích (ảnh/video) - 说明文字 / 字幕
+- Label - Nhãn - 标签
+- Tag - Thẻ - 标签
+- Category - Danh mục / Thể loại - 类别 / 分类
+- Icon - Biểu tượng - 图标
+- Image - Hình ảnh - 图片
+- Video - Video - 视频
+- Audio - Âm thanh - 音频
+- File - Tệp / Tập tin - 文件
+- Document - Tài liệu - 文档
+- Attachment - Tệp đính kèm - 附件
+
+### Processing States - Trạng thái Xử lý - 处理状态
+- Loading - Đang tải - 加载中
+- Processing - Đang xử lý - 处理中
+- Success - Thành công - 成功
+- Error - Lỗi - 错误
+- Warning - Cảnh báo - 警告
+- Alert - Thông báo / Cảnh báo - 提醒 / 警报
+- Pending - Đang chờ xử lý - 待处理
+- Completed - Đã hoàn thành - 已完成
+- Failed - Thất bại - 失败
+- Cancelled - Đã hủy - 已取消
+- Paused - Đã tạm dừng - 已暂停
+- Buffering - Đang tải vào bộ đệm - 缓冲中
+- Uploading - Đang tải lên - 上传中
+- Downloading - Đang tải xuống - 下载中
+- Syncing - Đang đồng bộ - 同步中
+- Saving - Đang lưu - 保存中
+- Sending - Đang gửi - 发送中
+
+### Communication - Giao tiếp - 通讯
+- Notification - Thông báo - 通知
+- Message - Tin nhắn - 消息
+- Inbox - Hộp thư đến - 收件箱
+- Sent - Đã gửi - 已发送
+- Draft - Bản nháp - 草稿
+- Trash - Thùng rác - 垃圾箱
+- Spam - Thư rác / Spam - 垃圾邮件
+- Chat - Trò chuyện / Chat - 聊天
+- Comment - Bình luận - 评论
+- Reply - Trả lời - 回复
+- Forward - Chuyển tiếp - 转发
+- Mention - Nhắc đến / Tag tên - 提及 / @
+- Tag - Gắn thẻ - 标记 / 标签
+- Like - Thích - 点赞
+- Share - Chia sẻ - 分享
+- Follow - Theo dõi - 关注
+- Unfollow - Bỏ theo dõi - 取消关注
+- Block - Chặn - 屏蔽 / 拉黑
+- Report - Báo cáo - 举报
+- Contact - Liên hệ - 联系
+- Support - Hỗ trợ - 支持
+
+### Data States - Trạng thái Dữ liệu - 数据状态
+- No data available - Không có dữ liệu - 无可用数据
+- Empty - Trống - 空
+- Not Found - Không tìm thấy - 未找到
+- Unavailable - Không khả dụng - 不可用
+- Disabled - Vô hiệu hóa / Tắt - 已禁用
+- Enabled - Kích hoạt / Bật - 已启用
+- Active - Đang hoạt động - 活动 / 活跃
+- Inactive - Không hoạt động - 非活动 / 不活跃
+- Online - Trực tuyến - 在线
+- Offline - Ngoại tuyến - 离线
+- Connected - Đã kết nối - 已连接
+- Disconnected - Đã ngắt kết nối - 已断开
+- Locked - Đã khóa - 已锁定
+- Unlocked - Đã mở khóa - 已解锁
+- Read-only - Chỉ đọc - 只读
+- Editable - Có thể chỉnh sửa - 可编辑
+- Required - Bắt buộc - 必填 / 必需
+- Optional - Tùy chọn / Không bắt buộc - 可选
+- Visible - Hiển thị - 可见
+- Hidden - Ẩn - 隐藏
+- Collapsed - Thu gọn - 已折叠
+- Expanded - Mở rộng - 已展开
+
+### Visibility & Access - Hiển thị & Truy cập - 可见性与访问权限
+- Public - Công khai - 公开
+- Private - Riêng tư - 私密 / 私有
+- Restricted - Bị hạn chế - 受限制
+- Secure - Bảo mật - 安全
+- Insecure - Không bảo mật - 不安全
+- Verified - Đã xác minh - 已验证
+- Unverified - Chưa xác minh - 未验证
+- Trusted - Tin cậy - 可信
+- Untrusted - Không tin cậy - 不可信
+- Safe - An toàn - 安全
+- Unsafe - Không an toàn - 不安全
+- Valid - Hợp lệ - 有效
+- Invalid - Không hợp lệ - 无效
+- Accessible - Có thể truy cập - 可访问
+- Inaccessible - Không thể truy cập - 不可访问
+- Authorized - Được phép / Ủy quyền - 已授权
+- Unauthorized - Không được phép / Chưa ủy quyền - 未授权
+- Permission denied - Quyền truy cập bị từ chối - 权限被拒绝
+- Admin only - Chỉ quản trị viên - 仅管理员
+- Members only - Chỉ thành viên - 仅限会员
+- Premium access - Truy cập cao cấp / Premium - 高级访问权限
+
+### Time-Related - Liên quan đến Thời gian - 时间相关
+- Expired - Đã hết hạn - 已过期
+- Expiring Soon - Sắp hết hạn - 即将过期
+- New - Mới - 新
+- Old - Cũ - 旧
+- Recent - Gần đây - 最近
+- Today - Hôm nay - 今天
+- Yesterday - Hôm qua - 昨天
+- Tomorrow - Ngày mai - 明天
+- This week - Tuần này - 本周
+- Last week - Tuần trước - 上周
+- Next week - Tuần sau - 下周
+- This month - Tháng này - 本月
+- Last month - Tháng trước - 上个月
+- Next month - Tháng sau - 下个月
+- This year - Năm nay - 今年
+- Last year - Năm ngoái - 去年
+- Next year - Năm sau - 明年
+- Date - Ngày - 日期
+- Time - Thời gian - 时间
+- Duration - Thời lượng - 持续时间
+- Schedule - Lịch trình - 日程 / 安排
+- Calendar - Lịch - 日历
+- Reminder - Lời nhắc - 提醒
+- Deadline - Hạn chót - 截止日期
+
+### Popularity Indicators - Chỉ số Phổ biến - 热门度指标
+- Popular - Phổ biến - 热门
+- Trending - Xu hướng / Thịnh hành - 趋势 / 流行
+- Featured - Nổi bật - 精选 / 特色
+- Recommended - Đề xuất - 推荐
+- Top Rated - Được xếp hạng cao nhất - 评分最高
+- Best Seller - Bán chạy nhất - 最畅销
+- Hot - Hot / Nóng - 热门
+- Most viewed - Được xem nhiều nhất - 查看最多
+- Most purchased - Được mua nhiều nhất - 购买最多
+- Most liked - Được thích nhiều nhất - 点赞最多
+- Staff pick - Lựa chọn của nhân viên - 员工精选
+- Editor's choice - Lựa chọn của biên tập viên - 编辑推荐
+- Customer favorite - Yêu thích của khách hàng - 顾客最爱
+
+### Product States - Trạng thái Sản phẩm - 产品状态
+- On Sale - Đang giảm giá - 促销中 / 特价
+- Out of Stock - Hết hàng - 缺货 / 无货
+- In Stock - Còn hàng - 有货
+- Low Stock - Sắp hết hàng / Còn ít hàng - 库存不足
+- Sold Out - Đã bán hết - 已售罄
+- Limited - Giới hạn - 限量
+- Exclusive - Độc quyền - 独家
+- Premium - Cao cấp - 高级 / 付费
+- Featured - Nổi bật - 特色 / 精选
+- New arrival - Hàng mới về - 新品上市
+- Back in stock - Hàng về lại - 重新到货
+- Pre-order - Đặt hàng trước - 预购
+- Discontinued - Ngừng sản xuất / kinh doanh - 已停产 / 已下架
+- Clearance - Thanh lý - 清仓
+- Seasonal - Theo mùa - 季节性
+- Special edition - Phiên bản đặc biệt - 特别版
+
+### Pricing Models - Mô hình Định giá - 定价模式
+- Free - Miễn phí - 免费
+- Paid - Trả phí - 付费
+- Trial - Dùng thử - 试用
+- Demo - Bản demo / Dùng thử - 演示 / 试用
+- Subscription - Đăng ký theo gói / Thuê bao - 订阅
+- One-time purchase - Mua một lần - 一次性购买
+- Recurring - Thanh toán định kỳ - 定期 / 循环付款
+- Monthly - Hàng tháng - 按月
+- Yearly - Hàng năm - 按年
+- Lifetime - Trọn đời - 终身
+- Discounted - Giảm giá - 折扣价
+- Premium - Cao cấp / Premium - 高级 / 收费
+
+### Release Types - Loại Phát hành - 发布类型
+- Beta - Bản Beta - 测试版 (Beta)
+- Alpha - Bản Alpha - 内测版 (Alpha)
+- Early Access - Truy cập sớm - 抢先体验 / 早期访问
+- Coming Soon - Sắp ra mắt - 即将推出
+- Under Maintenance - Đang bảo trì - 维护中
+- Under Construction - Đang xây dựng - 建设中
+- Temporarily Unavailable - Tạm thời không khả dụng - 暂时不可用
+- Release candidate - Bản phát hành ứng viên - 候选发布版 (RC)
+- Stable release - Bản phát hành ổn định - 稳定版
+- Development version - Phiên bản phát triển - 开发版
+- Public release - Phát hành công khai - 公开发布
+- Private beta - Beta riêng tư / kín - 私人测试版
+
+### Filters & Sorting - Bộ lọc & Sắp xếp - 筛选与排序
+- Filter - Lọc - 筛选
+- Sort - Sắp xếp - 排序
+- Sort by - Sắp xếp theo - 按...排序
+- Filter by - Lọc theo - 按...筛选
+- Ascending - Tăng dần - 升序
+- Descending - Giảm dần - 降序
+- A-Z - Từ A đến Z - A到Z
+- Z-A - Từ Z đến A - Z到A
+- Lowest to highest - Từ thấp đến cao - 从低到高
+- Highest to lowest - Từ cao đến thấp - 从高到低
+- Newest to oldest - Mới nhất đến cũ nhất - 最新到最旧
+- Oldest to newest - Cũ nhất đến mới nhất - 最旧到最新
+- Most relevant - Liên quan nhất - 最相关
+- Most popular - Phổ biến nhất - 最热门
+- Best match - Phù hợp nhất - 最佳匹配
+- Custom - Tùy chỉnh - 自定义
+
+## B. Authentication and Account - Xác thực và Tài khoản - 认证与账户
+
+### Authentication Actions - Hành động Xác thực - 认证操作
+- Login - Đăng nhập - 登录
+- Logout - Đăng xuất - 登出 / 退出登录
+- Register - Đăng ký - 注册
+- Sign Up - Đăng ký - 注册
+- Sign In - Đăng nhập - 登录
+- Sign Out - Đăng xuất - 登出 / 退出登录
+- Log in with Google - Đăng nhập bằng Google - 使用谷歌登录
+- Log in with Facebook - Đăng nhập bằng Facebook - 使用脸书登录
+- Log in with Apple - Đăng nhập bằng Apple - 使用苹果登录
+- Social login - Đăng nhập bằng mạng xã hội - 社交登录
+- Remember me - Ghi nhớ tôi - 记住我
+- Stay signed in - Duy trì đăng nhập - 保持登录状态
+- Authentication required - Yêu cầu xác thực - 需要认证
+- Verification required - Yêu cầu xác minh - 需要验证
+
+### Account Management - Quản lý Tài khoản - 账户管理
+- Account - Tài khoản - 账户
+- Profile - Hồ sơ - 个人资料
+- Settings - Cài đặt - 设置
+- Preferences - Tùy chọn / Sở thích - 偏好设置
+- Security - Bảo mật - 安全
+- Privacy - Quyền riêng tư - 隐私
+- Email - Email / Thư điện tử - 邮箱 / 电子邮件
+- Password - Mật khẩu - 密码
+- Confirm Password - Xác nhận mật khẩu - 确认密码
+- Forgot Password - Quên mật khẩu - 忘记密码
+- Reset Password - Đặt lại mật khẩu - 重置密码
+- Change Password - Đổi mật khẩu - 更改密码
+- Change Email - Đổi email - 更改邮箱
+- Verify Email - Xác minh email - 验证邮箱
+- Email Verification - Xác minh email - 邮箱验证
+- Two-Factor Authentication - Xác thực hai yếu tố (2FA) - 双因素认证 (2FA)
+- Multi-Factor Authentication - Xác thực đa yếu tố (MFA) - 多因素认证 (MFA)
+- Login History - Lịch sử đăng nhập - 登录历史
+- Sessions - Phiên đăng nhập - 会话
+- Devices - Thiết bị - 设备
+- Logout from All Devices - Đăng xuất khỏi tất cả thiết bị - 从所有设备登出
+- Delete Account - Xóa tài khoản - 删除账户
+- Deactivate Account - Hủy kích hoạt tài khoản / Vô hiệu hóa tài khoản - 停用账户
+- Reactivate Account - Kích hoạt lại tài khoản - 重新激活账户
+- Username - Tên người dùng / Tên đăng nhập - 用户名
+- User ID - ID người dùng - 用户ID
+- Account ID - ID tài khoản - 账户ID
+- Account verification - Xác minh tài khoản - 账户验证
+- Password complexity - Độ phức tạp mật khẩu - 密码复杂度
+- Password strength - Độ mạnh mật khẩu - 密码强度
+- Password hint - Gợi ý mật khẩu - 密码提示
+- Verification code - Mã xác minh - 验证码
+- OTP (One-Time Password) - Mật khẩu một lần (OTP) - 一次性密码 (OTP)
+- Backup codes - Mã dự phòng - 备用码
+- Recovery email - Email khôi phục - 恢复邮箱
+- Security question - Câu hỏi bảo mật - 安全问题
+- Account security - Bảo mật tài khoản - 账户安全
+- Account status - Trạng thái tài khoản - 账户状态
+- Account type - Loại tài khoản - 账户类型
+- Account level - Cấp độ tài khoản - 账户等级
+
+### User Account Sections - Các mục trong Tài khoản Người dùng - 用户账户区域
+- My Account - Tài khoản của tôi - 我的账户
+- Personal Information - Thông tin cá nhân - 个人信息
+- Billing Information - Thông tin thanh toán - 账单信息
+- Payment Information - Thông tin thanh toán - 支付信息
+- Address Book - Sổ địa chỉ - 地址簿
+- My Orders - Đơn hàng của tôi - 我的订单
+- My Reviews - Đánh giá của tôi - 我的评价
+- My Wishlist - Danh sách yêu thích - 我的收藏夹 / 愿望清单
+- My Cart - Giỏ hàng của tôi - 我的购物车
+- My Subscriptions - Gói đăng ký của tôi - 我的订阅
+- My Returns - Đơn trả hàng của tôi - 我的退货
+- My Refunds - Hoàn tiền của tôi - 我的退款
+- My Coupons - Mã giảm giá của tôi - 我的优惠券
+- My Points - Điểm của tôi - 我的积分
+- My Rewards - Phần thưởng của tôi - 我的奖励
+- My Balance - Số dư của tôi - 我的余额
+- My Wallet - Ví của tôi - 我的钱包
+- My Credits - Tín dụng của tôi - 我的信用额 / 点数
+- My Gift Cards - Thẻ quà tặng của tôi - 我的礼品卡
+- My Downloads - Tải xuống của tôi - 我的下载
+- My Favorites - Yêu thích của tôi - 我的收藏
+- My Bookmarks - Đánh dấu của tôi - 我的书签
+- My Notifications - Thông báo của tôi - 我的通知
+- My Messages - Tin nhắn của tôi - 我的消息
+- My Activity - Hoạt động của tôi - 我的活动
+- My Preferences - Tùy chọn của tôi - 我的偏好设置
+- My Privacy - Quyền riêng tư của tôi - 我的隐私设置
+- My Devices - Thiết bị của tôi - 我的设备
+
+## C. Navigation and Pages - Điều hướng và Trang - 导航与页面
+
+### Main Navigation - Điều hướng Chính - 主导航
+- Home - Trang chủ - 首页
+- About Us - Về chúng tôi - 关于我们
+- Contact - Liên hệ - 联系我们
+- Shop - Cửa hàng - 商店 / 购物
+- Store - Cửa hàng - 店铺
+- Products - Sản phẩm - 产品
+- Services - Dịch vụ - 服务
+- Categories - Danh mục - 分类
+- Brands - Thương hiệu - 品牌
+- Menu - Menu / Thực đơn - 菜单
+- Navigation - Điều hướng - 导航
+- Header - Đầu trang - 页眉 / 头部
+- Footer - Chân trang - 页脚 / 底部
+- Sidebar - Thanh bên - 侧边栏
+- Dashboard - Bảng điều khiển - 仪表盘 / 控制面板
+- Main page - Trang chính - 主页
+
+### Promotions - Khuyến mãi - 促销活动
+- Deals - Ưu đãi / Khuyến mãi - 优惠 / 交易
+- Offers - Ưu đãi / Chào hàng - 优惠 / 提供
+- Promotions - Khuyến mãi - 促销活动
+- Discounts - Giảm giá - 折扣
+- Sales - Giảm giá / Bán hàng - 促销 / 销售
+- Clearance - Thanh lý - 清仓
+- New Arrivals - Hàng mới về - 新品上市
+- Best Sellers - Bán chạy nhất - 最畅销
+- Top Rated - Được xếp hạng cao nhất - 评分最高
+- Featured Products - Sản phẩm nổi bật - 特色产品
+- Trending Now - Đang thịnh hành - 当前热门 / 流行趋势
+- Flash sale - Giảm giá chớp nhoáng - 限时抢购 / 闪购
+- Limited time offer - Ưu đãi có giới hạn thời gian - 限时优惠
+- Seasonal offers - Ưu đãi theo mùa - 季节性优惠
+- Holiday specials - Ưu đãi ngày lễ - 假日特惠
+- Bundle deals - Ưu đãi gói / combo - 捆绑销售 / 套餐优惠
+- Buy one get one - Mua một tặng một - 买一送一
+- Free gift - Quà tặng miễn phí - 免费赠品
+- Free shipping - Miễn phí vận chuyển - 免运费 / 包邮
+
+### Content Sections - Các mục Nội dung - 内容区域
+- Blog - Blog / Nhật ký web - 博客
+- News - Tin tức - 新闻
+- Events - Sự kiện - 活动
+- Frequently Asked Questions - Câu hỏi thường gặp (FAQ) - 常见问题解答 (FAQ)
+- Help - Trợ giúp - 帮助
+- Support - Hỗ trợ - 支持
+- Help Center - Trung tâm trợ giúp - 帮助中心
+- Customer Service - Dịch vụ khách hàng - 客户服务
+- Live Chat - Trò chuyện trực tiếp - 实时聊天
+- Contact Us - Liên hệ chúng tôi - 联系我们
+- Resources - Tài nguyên - 资源
+- Guides - Hướng dẫn - 指南
+- Tutorials - Hướng dẫn (chi tiết) - 教程
+- Documentation - Tài liệu - 文档
+- Knowledge base - Cơ sở kiến thức - 知识库
+- Community forum - Diễn đàn cộng đồng - 社区论坛
+- Discussion board - Bảng thảo luận - 讨论区
+- Testimonials - Lời chứng thực / Nhận xét khách hàng - 客户评价 / 推荐信
+- Reviews - Đánh giá - 评论 / 评价
+
+### About Pages - Các trang Giới thiệu - 关于页面
+- About Us - Về chúng tôi - 关于我们
+- Our Story - Câu chuyện của chúng tôi - 我们的故事
+- Our Team - Đội ngũ của chúng tôi - 我们的团队
+- Careers - Tuyển dụng / Nghề nghiệp - 加入我们 / 职业机会
+- Press - Báo chí - 媒体报道 / 新闻中心
+- Media - Truyền thông - 媒体
+- Partners - Đối tác - 合作伙伴
+- Affiliates - Đối tác liên kết - 联盟伙伴 / 推广伙伴
+- Company information - Thông tin công ty - 公司信息
+- Mission - Sứ mệnh - 使命
+- Vision - Tầm nhìn - 愿景
+- Values - Giá trị - 价值观
+- History - Lịch sử - 历史
+- Timeline - Dòng thời gian - 时间线
+- Achievements - Thành tựu - 成就
+- Awards - Giải thưởng - 奖项
+- Recognition - Sự công nhận - 认可
+- Social responsibility - Trách nhiệm xã hội - 社会责任
+- Sustainability - Phát triển bền vững - 可持续发展
+
+### Policies - Chính sách - 政策
+- Terms and Conditions - Điều khoản và Điều kiện - 条款与条件
+- Terms of Service - Điều khoản Dịch vụ - 服务条款
+- Terms of Use - Điều khoản Sử dụng - 使用条款
+- Privacy Policy - Chính sách Quyền riêng tư - 隐私政策
+- Cookie Policy - Chính sách Cookie - Cookie政策
+- Refund Policy - Chính sách Hoàn tiền - 退款政策
+- Return Policy - Chính sách Trả hàng - 退货政策
+- Shipping Policy - Chính sách Vận chuyển - 运输政策
+- Payment Policy - Chính sách Thanh toán - 支付政策
+- Warranty - Bảo hành - 保修
+- Guarantee - Đảm bảo - 保证
+- Sitemap - Sơ đồ trang web - 网站地图
+- Legal - Pháp lý - 法律声明
+- Copyright - Bản quyền - 版权
+- Intellectual property - Sở hữu trí tuệ - 知识产权
+- Data protection - Bảo vệ dữ liệu - 数据保护
+- GDPR compliance - Tuân thủ GDPR - GDPR 合规
+- Accessibility statement - Tuyên bố về khả năng truy cập - 无障碍声明
+- Disclaimer - Tuyên bố miễn trừ trách nhiệm - 免责声明
+
+### Language & Region - Ngôn ngữ & Khu vực - 语言与地区
+- Language - Ngôn ngữ - 语言
+- Region - Khu vực - 地区
+- Country - Quốc gia - 国家
+- Currency - Tiền tệ - 货币
+- Time zone - Múi giờ - 时区
+- Format - Định dạng - 格式
+- Language settings - Cài đặt ngôn ngữ - 语言设置
+- Regional settings - Cài đặt khu vực - 区域设置
+- Translation - Bản dịch - 翻译
+- Localization - Địa phương hóa - 本地化
+
+## D. Shopping and E-commerce - Mua sắm và Thương mại điện tử - 购物与电子商务
+
+### Cart & Checkout - Giỏ hàng & Thanh toán - 购物车与结账
+- Cart - Giỏ hàng - 购物车
+- Checkout - Thanh toán - 结账
+- Order - Đơn hàng - 订单
+- Orders - Các đơn hàng - 订单
+- Order History - Lịch sử đơn hàng - 订单历史
+- Order Details - Chi tiết đơn hàng - 订单详情
+- Order Summary - Tóm tắt đơn hàng - 订单摘要
+- Order Confirmation - Xác nhận đơn hàng - 订单确认
+- Order Status - Trạng thái đơn hàng - 订单状态
+- Order Tracking - Theo dõi đơn hàng - 订单追踪
+- Track Order - Theo dõi đơn hàng - 追踪订单
+- Shopping cart - Giỏ hàng - 购物车
+- Continue shopping - Tiếp tục mua sắm - 继续购物
+- Proceed to checkout - Tiến hành thanh toán - 去结账
+- Review order - Xem lại đơn hàng - 检查订单
+- Place order - Đặt hàng - 提交订单 / 下单
+- Confirm order - Xác nhận đơn hàng - 确认订单
+- Cancel order - Hủy đơn hàng - 取消订单
+- Modify order - Sửa đổi đơn hàng - 修改订单
+- Save cart - Lưu giỏ hàng - 保存购物车
+- Clear cart - Xóa giỏ hàng - 清空购物车
+- Abandon cart - Giỏ hàng bị bỏ quên - 废弃购物车
+- Cart recovery - Khôi phục giỏ hàng - 购物车恢复
+- Guest checkout - Thanh toán với tư cách khách - 访客结账
+- Express checkout - Thanh toán nhanh - 快速结账
+
+### Shipping & Delivery - Vận chuyển & Giao hàng - 运输与配送
+- Shipping - Vận chuyển - 运输
+- Delivery - Giao hàng - 配送
+- Pickup - Nhận hàng (tại cửa hàng) - 自提
+- Address - Địa chỉ - 地址
+- Shipping Address - Địa chỉ giao hàng - 收货地址
+- Billing Address - Địa chỉ thanh toán - 账单地址
+- Delivery method - Phương thức giao hàng - 配送方式
+- Shipping method - Phương thức vận chuyển - 运输方式
+- Shipping options - Tùy chọn vận chuyển - 运输选项
+- Expedited shipping - Vận chuyển nhanh - 加急运输
+- Standard shipping - Vận chuyển tiêu chuẩn - 标准运输
+- Express delivery - Giao hàng nhanh - 快递配送 / 快速配送
+- Next day delivery - Giao hàng ngày hôm sau - 次日达
+- Same day delivery - Giao hàng trong ngày - 当日达
+- Store pickup - Nhận tại cửa hàng - 门店自提
+- Curbside pickup - Nhận hàng tại lề đường - 路边自提
+- Delivery date - Ngày giao hàng - 配送日期
+- Delivery time - Thời gian giao hàng - 配送时间
+- Estimated arrival - Thời gian dự kiến đến - 预计送达时间
+- Shipping restrictions - Hạn chế vận chuyển - 运输限制
+- Shipping zones - Khu vực vận chuyển - 运输区域
+- International shipping - Vận chuyển quốc tế - 国际运输
+- Domestic shipping - Vận chuyển nội địa - 国内运输
+- Tracking number - Mã theo dõi / Số vận đơn - 追踪号码 / 运单号
+- Delivery confirmation - Xác nhận giao hàng - 配送确认
+
+### Payment Options - Tùy chọn Thanh toán - 支付选项
+- Payment - Thanh toán - 支付
+- Payment Method - Phương thức thanh toán - 支付方式
+- Payment Options - Tùy chọn thanh toán - 支付选项
+- Pay Now - Thanh toán ngay - 立即支付
+- Pay Later - Thanh toán sau - 稍后支付
+- Credit Card - Thẻ tín dụng - 信用卡
+- Debit Card - Thẻ ghi nợ - 借记卡
+- PayPal - PayPal - PayPal / 贝宝
+- Bank Transfer - Chuyển khoản ngân hàng - 银行转账
+- Cash on Delivery - Thanh toán khi nhận hàng (COD) - 货到付款 (COD)
+- Wallet - Ví điện tử - 钱包
+- Gift Card - Thẻ quà tặng - 礼品卡
+- Google Pay - Google Pay - Google Pay
+- Apple Pay - Apple Pay - Apple Pay
+- Amazon Pay - Amazon Pay - Amazon Pay
+- Cryptocurrency - Tiền điện tử / Tiền mã hóa - 加密货币
+- Installment payment - Thanh toán trả góp - 分期付款
+- Split payment - Chia thanh toán - 分开支付
+- Payment processing - Đang xử lý thanh toán - 支付处理中
+- Payment confirmation - Xác nhận thanh toán - 支付确认
+- Payment declined - Thanh toán bị từ chối - 支付被拒
+- Payment failure - Thanh toán thất bại - 支付失败
+- Payment security - Bảo mật thanh toán - 支付安全
+- Secure payment - Thanh toán an toàn - 安全支付
+- Encrypted payment - Thanh toán được mã hóa - 加密支付
+- Payment gateway - Cổng thanh toán - 支付网关
+
+### Discounts & Promotions - Giảm giá & Khuyến mãi - 折扣与促销
+- Coupon - Phiếu giảm giá / Coupon - 优惠券
+- Voucher - Phiếu mua hàng / Voucher - 代金券 / 抵用券
+- Promo Code - Mã khuyến mãi - 促销代码
+- Discount Code - Mã giảm giá - 折扣代码
+- Apply - Áp dụng - 应用
+- Applied - Đã áp dụng - 已应用
+- Referral code - Mã giới thiệu - 推荐码
+- Gift card code - Mã thẻ quà tặng - 礼品卡代码
+- Loyalty program - Chương trình khách hàng thân thiết - 忠诚度计划
+- Rewards program - Chương trình phần thưởng - 奖励计划
+- Points - Điểm - 积分
+- Redeem - Đổi / Sử dụng (điểm, coupon) - 兑换 / 使用
+- Earn points - Tích điểm - 赚取积分
+- Use points - Sử dụng điểm - 使用积分
+- Member discount - Giảm giá thành viên - 会员折扣
+- Special offer - Ưu đãi đặc biệt - 特别优惠
+- Limited offer - Ưu đãi giới hạn - 限时优惠
+- Exclusive offer - Ưu đãi độc quyền - 独家优惠
+- Personalized offer - Ưu đãi cá nhân hóa - 个性化优惠
+- Bundle discount - Giảm giá gói / combo - 套餐折扣
+- Volume discount - Giảm giá theo số lượng - 批量折扣
+- Bulk purchase discount - Giảm giá mua số lượng lớn - 大宗购买折扣
+
+### Order Pricing - Giá trị Đơn hàng - 订单定价
+- Total - Tổng cộng - 总计
+- Subtotal - Tổng phụ / Tạm tính - 小计
+- Tax - Thuế - 税费
+- Fee - Phí - 费用
+- Shipping Cost - Phí vận chuyển - 运费
+- Handling Fee - Phí xử lý - 手续费 / 处理费
+- Discount - Giảm giá - 折扣
+- Savings - Tiết kiệm được - 节省金额
+- Grand total - Tổng cộng cuối cùng - 总金额 / 合计
+- Order total - Tổng giá trị đơn hàng - 订单总额
+- Item total - Tổng giá trị sản phẩm - 商品总额
+- Price adjustment - Điều chỉnh giá - 价格调整
+- Price match - Khớp giá / Đảm bảo giá tốt nhất - 价格匹配
+- Currency conversion - Chuyển đổi tiền tệ - 货币转换
+- Exchange rate - Tỷ giá hối đoái - 汇率
+- VAT - Thuế GTGT (VAT) - 增值税 (VAT)
+- GST - Thuế hàng hóa và dịch vụ (GST) - 商品及服务税 (GST)
+- Sales tax - Thuế bán hàng - 销售税
+- Import duties - Thuế nhập khẩu - 进口关税
+- Customs fees - Phí hải quan - 海关费用
+- Additional fees - Phí bổ sung - 附加费用
+- Service charge - Phí dịch vụ - 服务费
+- Convenience fee - Phí tiện ích - 便利费
+
+### Product Details - Chi tiết Sản phẩm - 产品详情
+- Price - Giá - 价格
+- Quantity - Số lượng - 数量
+- Item - Sản phẩm / Mục - 项目 / 商品
+- Items - Các sản phẩm / Các mục - 项目 / 商品 (复数)
+- Product - Sản phẩm - 产品
+- Category - Danh mục - 类别 / 分类
+- Brand - Thương hiệu - 品牌
+- Size - Kích thước / Cỡ - 尺寸 / 尺码
+- Color - Màu sắc - 颜色
+- Weight - Trọng lượng - 重量
+- Dimensions - Kích thước (dài/rộng/cao) - 尺寸 (长/宽/高)
+- Material - Chất liệu - 材质
+- Condition - Tình trạng - 状况 / 成色
+- Availability - Tình trạng còn hàng - 可用性 / 库存情况
+- Stock - Kho / Hàng tồn kho - 库存
+- Product code - Mã sản phẩm - 产品代码
+- SKU - Mã SKU (Đơn vị lưu kho) - SKU (库存单位)
+- UPC - Mã UPC (Mã sản phẩm chung) - UPC (通用产品代码)
+- Model number - Số model / Kiểu máy - 型号
+- Manufacturer - Nhà sản xuất - 制造商
+- Origin - Xuất xứ - 产地 / 来源
+- Made in - Sản xuất tại - 制造地 / 产于
+- Specifications - Thông số kỹ thuật - 规格
+- Features - Tính năng - 特点 / 功能
+- Benefits - Lợi ích - 优点 / 益处
+- Description - Mô tả - 描述
+- Short description - Mô tả ngắn - 简短描述
+- Long description - Mô tả dài / chi tiết - 详细描述
+- Technical details - Chi tiết kỹ thuật - 技术细节
+- Product variants - Biến thể sản phẩm - 产品变体
+- Options - Tùy chọn - 选项
+- Customization - Tùy chỉnh - 定制
+- Personalization - Cá nhân hóa - 个性化
+- Add-ons - Tiện ích bổ sung / Phụ kiện mua thêm - 附加项 / 配件
+- Accessories - Phụ kiện - 配件
+- Related products - Sản phẩm liên quan - 相关产品
+- Similar products - Sản phẩm tương tự - 相似产品
+- Alternative products - Sản phẩm thay thế - 替代产品
+- Complementary products - Sản phẩm bổ sung - 补充产品 / 配套产品
+- Frequently bought together - Thường được mua cùng - 经常一起购买
+- Bundle - Gói / Combo - 套餐 / 组合
+- Kit - Bộ / Kit - 套件
+- Set - Bộ - 套装
+
+### Reviews & Ratings - Đánh giá & Xếp hạng - 评价与评分
+- Reviews - Đánh giá - 评价 / 评论
+- Ratings - Xếp hạng - 评分
+- Star rating - Xếp hạng sao - 星级评分
+- Customer reviews - Đánh giá của khách hàng - 顾客评价
+- Verified purchase - Lượt mua đã xác minh - 已验证购买
+- Review count - Số lượt đánh giá - 评价数量
+- Average rating - Xếp hạng trung bình - 平均评分
+- Write a review - Viết đánh giá - 写评价
+- Rate this product - Đánh giá sản phẩm này - 评价此产品
+- Recommend - Đề xuất / Giới thiệu - 推荐
+- Helpful - Hữu ích - 有帮助
+- Not helpful - Không hữu ích - 没有帮助
+- Reported review - Đánh giá bị báo cáo - 被举报的评价
+- Top reviews - Đánh giá hàng đầu - 热门评价 / 最佳评价
+- Recent reviews - Đánh giá gần đây - 最新评价
+- Filter reviews - Lọc đánh giá - 筛选评价
+- Sort reviews - Sắp xếp đánh giá - 排序评价
+- Review guidelines - Quy tắc đánh giá - 评价指南
+- Product feedback - Phản hồi về sản phẩm - 产品反馈
+
+## E. Header Specific - Đặc trưng cho Đầu trang - 页眉特定内容
+- Download App - Tải ứng dụng - 下载App
+- Seller Channel - Kênh người bán - 卖家中心 / 商家渠道
+- Search for products, brands and categories - Tìm kiếm sản phẩm, thương hiệu và danh mục - 搜索商品、品牌和分类
+- Search product - Tìm kiếm sản phẩm - 搜索商品
+- Electronics - Điện tử - 电子产品
+- Fashion - Thời trang - 时尚
+- Home & Living - Nhà cửa & Đời sống - 家居生活
+- Beauty - Làm đẹp - 美妆
+- Help Center - Trung tâm trợ giúp - 帮助中心
+- Logo - Logo - Logo / 标志
+- Search bar - Thanh tìm kiếm - 搜索栏
+- Menu toggle - Nút bật/tắt Menu - 菜单切换按钮
+- Navigation menu - Menu điều hướng - 导航菜单
+- User menu - Menu người dùng - 用户菜单
+- Language selector - Bộ chọn ngôn ngữ - 语言选择器
+- Currency selector - Bộ chọn tiền tệ - 货币选择器
+- Region selector - Bộ chọn khu vực - 地区选择器
+- Notifications - Thông báo - 通知
+- Wishlist - Danh sách yêu thích - 收藏夹 / 愿望清单
+- Compare - So sánh - 对比
+- Recently viewed - Đã xem gần đây - 最近浏览
+
+## F. Dashboard Admin - Bảng điều khiển Quản trị - 管理后台仪表盘
+
+### Main Dashboard Elements - Các Yếu tố Bảng điều khiển Chính - 仪表盘主要元素
+- Dashboard - Bảng điều khiển - 仪表盘 / 控制面板
+- Analytics - Phân tích - 分析
+- Statistics - Thống kê - 统计数据
+- Reports - Báo cáo - 报告
+- Recent Orders - Đơn hàng gần đây - 最近订单
+- Recent Customers - Khách hàng gần đây - 最近客户
+- Sales Overview - Tổng quan bán hàng - 销售概览
+- Top Selling Products - Sản phẩm bán chạy nhất - 热销产品
+- Performance - Hiệu suất - 性能
+- Metrics - Chỉ số đo lường - 指标
+- KPIs - Chỉ số hiệu suất chính (KPI) - 关键绩效指标 (KPI)
+- Growth - Tăng trưởng - 增长
+- Comparison - So sánh - 对比
+- Charts - Biểu đồ - 图表
+- Graphs - Đồ thị - 图形
+- Data visualization - Trực quan hóa dữ liệu - 数据可视化
+- Summary cards - Thẻ tóm tắt - 摘要卡片
+- Quick stats - Thống kê nhanh - 快速统计
+- Real-time data - Dữ liệu thời gian thực - 实时数据
+- Historical data - Dữ liệu lịch sử - 历史数据
+- Trends - Xu hướng - 趋势
+- Forecasts - Dự báo - 预测
+- Insights - Thông tin chuyên sâu / Insight - 洞察
+
+### Product Management - Quản lý Sản phẩm - 产品管理
+- Product Management - Quản lý Sản phẩm - 产品管理
+- Product List - Danh sách Sản phẩm - 产品列表
+- Add Product - Thêm Sản phẩm - 添加产品
+- Edit Product - Sửa Sản phẩm - 编辑产品
+- Delete Product - Xóa Sản phẩm - 删除产品
+- Product Categories - Danh mục Sản phẩm - 产品分类
+- Product Tags - Thẻ Sản phẩm - 产品标签
+- Inventory - Hàng tồn kho - 库存
+- Product import - Nhập Sản phẩm - 产品导入
+- Product export - Xuất Sản phẩm - 产品导出
+- Bulk actions - Hành động hàng loạt - 批量操作
+- Duplicate product - Nhân bản sản phẩm - 复制产品
+- Product templates - Mẫu sản phẩm - 产品模板
+- Digital products - Sản phẩm số - 数字产品
+- Physical products - Sản phẩm vật lý - 实体产品
+- Variable products - Sản phẩm có biến thể - 可变产品
+- Simple products - Sản phẩm đơn giản - 简单产品
+- Product attributes - Thuộc tính sản phẩm - 产品属性
+- Product gallery - Bộ sưu tập ảnh sản phẩm - 产品相册
+- Product images - Hình ảnh sản phẩm - 产品图片
+- Featured image - Ảnh đại diện / Ảnh nổi bật - 特色图片 / 主图
+- Product variations - Các biến thể sản phẩm - 产品变体
+- Pricing rules - Quy tắc định giá - 定价规则
+- Discount rules - Quy tắc giảm giá - 折扣规则
+- Stock management - Quản lý kho - 库存管理
+- Low stock alerts - Cảnh báo sắp hết hàng - 低库存提醒
+- Stock status - Trạng thái kho - 库存状态
+- Inventory adjustments - Điều chỉnh kho - 库存调整
+- Suppliers - Nhà cung cấp - 供应商
+- Manufacturers - Nhà sản xuất - 制造商
+
+### Order Management - Quản lý Đơn hàng - 订单管理
+- Order Management - Quản lý Đơn hàng - 订单管理
+- Order List - Danh sách Đơn hàng - 订单列表
+- Update Order Status - Cập nhật Trạng thái Đơn hàng - 更新订单状态
+- Pending - Đang chờ xử lý - 待处理
+- Processing - Đang xử lý - 处理中
+- Shipped - Đã giao hàng (cho vận chuyển) - 已发货
+- Delivered - Đã giao (đến khách) - 已送达
+- Cancelled - Đã hủy - 已取消
+- Refunded - Đã hoàn tiền - 已退款
+- Order details - Chi tiết đơn hàng - 订单详情
+- Order notes - Ghi chú đơn hàng - 订单备注
+- Customer notes - Ghi chú của khách hàng - 客户备注
+- Order history - Lịch sử đơn hàng - 订单历史
+- Payment status - Trạng thái thanh toán - 支付状态
+- Fulfillment status - Trạng thái hoàn thành đơn hàng - 履约状态 / 发货状态
+- Shipping status - Trạng thái vận chuyển - 运输状态
+- Tracking information - Thông tin theo dõi - 追踪信息
+- Invoices - Hóa đơn - 发票
+- Packing slips - Phiếu đóng gói - 装箱单
+- Return authorization - Ủy quyền trả hàng (RMA) - 退货授权 (RMA)
+- Exchange processing - Xử lý đổi hàng - 换货处理
+- Partial refund - Hoàn tiền một phần - 部分退款
+- Full refund - Hoàn tiền toàn bộ - 全额退款
+- Bulk update orders - Cập nhật đơn hàng hàng loạt - 批量更新订单
+- Order export - Xuất đơn hàng - 订单导出
+- Order filters - Bộ lọc đơn hàng - 订单筛选
+- Order search - Tìm kiếm đơn hàng - 订单搜索
+
+### Customer Management - Quản lý Khách hàng - 客户管理
+- Customer Management - Quản lý Khách hàng - 客户管理
+- Customer List - Danh sách Khách hàng - 客户列表
+- Customer Details - Chi tiết Khách hàng - 客户详情
+- Customer Activity - Hoạt động Khách hàng - 客户活动
+- Customer segments - Phân khúc khách hàng - 客户细分
+- Customer groups - Nhóm khách hàng - 客户群组
+- VIP customers - Khách hàng VIP - VIP客户
+- Inactive customers - Khách hàng không hoạt động - 非活跃客户
+- New customers - Khách hàng mới - 新客户
+- Customer acquisition - Thu hút khách hàng mới - 客户获取
+- Customer retention - Giữ chân khách hàng - 客户保留
+- Customer lifetime value - Giá trị vòng đời khách hàng (CLV) - 客户生命周期价值 (CLV)
+- Customer behavior - Hành vi khách hàng - 客户行为
+- Shopping patterns - Thói quen mua sắm - 购物模式
+- Purchase history - Lịch sử mua hàng - 购买历史
+- View as customer - Xem với tư cách khách hàng - 以客户身份查看
+- Customer notes - Ghi chú về khách hàng - 客户备注
+- Customer support - Hỗ trợ khách hàng - 客户支持
+- Support tickets - Phiếu hỗ trợ - 支持工单
+- Feedback management - Quản lý phản hồi - 反馈管理
+- Subscription management - Quản lý gói đăng ký - 订阅管理
+
+### Marketing Tools - Công cụ Tiếp thị - 营销工具
+- Marketing - Tiếp thị - 营销
+- Campaigns - Chiến dịch - 营销活动 / 广告系列
+- Email Marketing - Tiếp thị qua Email - 邮件营销
+- Promotions management - Quản lý khuyến mãi - 促销管理
+- Discount rules - Quy tắc giảm giá - 折扣规则
+- Coupon codes - Mã giảm giá / Coupon - 优惠券代码
+- Abandoned cart emails - Email nhắc giỏ hàng bị bỏ quên - 废弃购物车邮件
+- Newsletter - Bản tin - 电子报 / 时事通讯
+- Mailing lists - Danh sách gửi thư - 邮件列表
+- Email templates - Mẫu email - 邮件模板
+- Email automation - Tự động hóa email - 邮件自动化
+- Social media integration - Tích hợp mạng xã hội - 社交媒体整合
+- SEO tools - Công cụ SEO - SEO工具
+- Meta tags - Thẻ meta - Meta标签
+- URL structure - Cấu trúc URL - URL结构
+- Sitemap - Sơ đồ trang web - 网站地图
+- Google Analytics - Google Analytics - Google Analytics
+- Facebook Pixel - Facebook Pixel - Facebook Pixel
+- Conversion tracking - Theo dõi chuyển đổi - 转化追踪
+- Affiliate management - Quản lý đối tác liên kết - 联盟管理
+- Referral program - Chương trình giới thiệu - 推荐计划
+
+### Settings & Configuration - Cài đặt & Cấu hình - 设置与配置
+- General Settings - Cài đặt chung - 常规设置
+- User Management - Quản lý người dùng - 用户管理
+- Roles Permissions - Vai trò & Quyền hạn - 角色权限
+- Store Settings - Cài đặt cửa hàng - 店铺设置
+- Payment Settings - Cài đặt thanh toán - 支付设置
+- Shipping Settings - Cài đặt vận chuyển - 运输设置
+- Tax Settings - Cài đặt thuế - 税务设置
+- Site configuration - Cấu hình trang web - 网站配置
+- Theme settings - Cài đặt giao diện - 主题设置
+- Layout options - Tùy chọn bố cục - 布局选项
+- Color schemes - Bảng màu - 配色方案
+- Typography - Kiểu chữ - 排版 / 字体
+- Logo upload - Tải lên logo - Logo上传
+- Favicon - Favicon (Biểu tượng trang web) - Favicon / 网站图标
+- System settings - Cài đặt hệ thống - 系统设置
+- API configuration - Cấu hình API - API配置
+- Integration settings - Cài đặt tích hợp - 集成设置
+- Third-party services - Dịch vụ bên thứ ba - 第三方服务
+- Backup settings - Cài đặt sao lưu - 备份设置
+- Import/Export settings - Cài đặt Nhập/Xuất - 导入/导出设置
+- Language settings - Cài đặt ngôn ngữ - 语言设置
+- Region settings - Cài đặt khu vực - 地区设置
+- Currency settings - Cài đặt tiền tệ - 货币设置
+- Date format - Định dạng ngày - 日期格式
+- Time format - Định dạng thời gian - 时间格式
+- Notifications settings - Cài đặt thông báo - 通知设置
+- Email settings - Cài đặt email - 邮件设置
+- SMS settings - Cài đặt SMS - 短信设置
+- Push notifications - Thông báo đẩy - 推送通知
+
+### Data Operations - Thao tác Dữ liệu - 数据操作
+- Export - Xuất dữ liệu - 导出
+- Import - Nhập dữ liệu - 导入
+- Backup - Sao lưu - 备份
+- Restore - Khôi phục - 恢复
+- Data migration - Di chuyển dữ liệu - 数据迁移
+- Data synchronization - Đồng bộ hóa dữ liệu - 数据同步
+- Bulk update - Cập nhật hàng loạt - 批量更新
+- Bulk delete - Xóa hàng loạt - 批量删除
+- Data cleaning - Làm sạch dữ liệu - 数据清理
+- Data validation - Xác thực dữ liệu - 数据验证
+- Error logs - Nhật ký lỗi - 错误日志
+- Activity logs - Nhật ký hoạt động - 活动日志
+- System logs - Nhật ký hệ thống - 系统日志
+- Audit trail - Dấu vết kiểm toán / Nhật ký thay đổi - 审计追踪 / 操作记录
+- Database management - Quản lý cơ sở dữ liệu - 数据库管理
+
+### User Information - Thông tin Người dùng (Quản trị) - 用户信息 (管理后台)
+- Username - Tên người dùng - 用户名
+- No Notifications - Không có thông báo - 无通知
+- Mark All as Read - Đánh dấu tất cả là đã đọc - 全部标记为已读
+- User profile - Hồ sơ người dùng - 用户资料
+- Admin profile - Hồ sơ quản trị viên - 管理员资料
+- Staff account - Tài khoản nhân viên - 员工账户
+- Super admin - Quản trị viên cấp cao / Super admin - 超级管理员
+- Role - Vai trò - 角色
+- Permission - Quyền hạn - 权限
+- Access level - Cấp độ truy cập - 访问级别
+- Last login - Lần đăng nhập cuối -上次登录
+- Account status - Trạng thái tài khoản - 账户状态
+- Activity log - Nhật ký hoạt động - 活动日志
+- Login attempts - Số lần thử đăng nhập - 登录尝试次数
+- Password reset - Đặt lại mật khẩu - 密码重置
+- Two-factor authentication - Xác thực hai yếu tố - 双因素认证
+- Security settings - Cài đặt bảo mật - 安全设置
+
+## G. Error Messages & System Notifications - Thông báo Lỗi & Thông báo Hệ thống - 错误消息与系统通知
+
+### Error Types - Các loại Lỗi - 错误类型
+- Error - Lỗi - 错误
+- Warning - Cảnh báo - 警告
+- Info - Thông tin - 信息 / 提示
+- Success - Thành công - 成功
+- Critical error - Lỗi nghiêm trọng - 严重错误
+- System error - Lỗi hệ thống - 系统错误
+- Client error - Lỗi phía máy khách - 客户端错误
+- Server error - Lỗi phía máy chủ - 服务器错误
+- Connection error - Lỗi kết nối - 连接错误
+- Timeout error - Lỗi hết thời gian chờ - 超时错误
+- Authentication error - Lỗi xác thực - 认证错误
+- Authorization error - Lỗi ủy quyền / Lỗi cấp phép - 授权错误
+- Validation error - Lỗi xác thực dữ liệu - 验证错误
+- Input error - Lỗi nhập liệu - 输入错误
+- Processing error - Lỗi xử lý - 处理错误
+- Payment error - Lỗi thanh toán - 支付错误
+- Shipping error - Lỗi vận chuyển - 运输错误
+- Calculation error - Lỗi tính toán - 计算错误
+
+### Common Error Messages - Các Thông báo Lỗi Thường gặp - 常见错误消息
+- Page not found - Không tìm thấy trang (Lỗi 404) - 页面未找到 (404错误)
+- Access denied - Truy cập bị từ chối - 访问被拒绝
+- Invalid credentials - Thông tin đăng nhập không hợp lệ - 无效凭据 / 凭证无效
+- Session expired - Phiên đã hết hạn - 会话已过期
+- Connection lost - Mất kết nối - 连接丢失
+- Request failed - Yêu cầu thất bại - 请求失败
+- Server unavailable - Máy chủ không khả dụng - 服务器不可用
+- Maintenance mode - Chế độ bảo trì - 维护模式
+- Too many attempts - Quá nhiều lần thử - 尝试次数过多
+- Rate limited - Bị giới hạn tần suất yêu cầu - 请求频率受限
+- Invalid input - Dữ liệu nhập không hợp lệ - 无效输入
+- Required field - Trường bắt buộc - 必填字段
+- Invalid format - Định dạng không hợp lệ - 无效格式
+- File too large - Tệp quá lớn - 文件过大
+- Unsupported file type - Loại tệp không được hỗ trợ - 不支持的文件类型
+- Database error - Lỗi cơ sở dữ liệu - 数据库错误
+
+### System Notifications - Thông báo Hệ thống - 系统通知
+- Update available - Có bản cập nhật - 有可用更新
+- New version - Phiên bản mới - 新版本
+- Maintenance scheduled - Lịch bảo trì đã lên - 维护计划已安排
+- System upgrade - Nâng cấp hệ thống - 系统升级
+- Security alert - Cảnh báo bảo mật - 安全警报
+- Account activity - Hoạt động tài khoản - 账户活动
+- Password changed - Mật khẩu đã thay đổi - 密码已更改
+- Email changed - Email đã thay đổi - 邮箱已更改
+- New login - Đăng nhập mới - 新的登录
+- New device - Thiết bị mới - 新设备
+- Low disk space - Dung lượng ổ đĩa thấp - 磁盘空间不足
+- Performance issue - Sự cố hiệu suất - 性能问题
+- Backup completed - Sao lưu hoàn tất - 备份完成
+- Import completed - Nhập dữ liệu hoàn tất - 导入完成
+- Export completed - Xuất dữ liệu hoàn tất - 导出完成
+- Process completed - Quá trình hoàn tất - 处理完成
+- Task scheduled - Tác vụ đã được lên lịch - 任务已计划
+
+## H. Currency and Measurement - Tiền tệ và Đo lường - 货币与度量衡
+
+### Currency - Tiền tệ - 货币
+- Currency - Tiền tệ - 货币
+- Price - Giá - 价格
+- Cost - Chi phí - 成本
+- USD - USD (Đô la Mỹ) - 美元 (USD)
+- EUR - EUR (Euro) - 欧元 (EUR)
+- GBP - GBP (Bảng Anh) - 英镑 (GBP)
+- JPY - JPY (Yên Nhật) - 日元 (JPY)
+- CNY - CNY (Nhân dân tệ) - 人民币 (CNY)
+- Currency symbol - Ký hiệu tiền tệ - 货币符号
+- Currency code - Mã tiền tệ - 货币代码
+- Exchange rate - Tỷ giá hối đoái - 汇率
+- Currency converter - Bộ chuyển đổi tiền tệ - 货币转换器
+
+### Measurements - Đo lường - 度量单位
+- Size - Kích thước / Cỡ - 尺寸 / 大小
+- Weight - Trọng lượng - 重量
+- Dimensions - Kích thước (dài/rộng/cao) - 尺寸 (长/宽/高)
+- Length - Chiều dài - 长度
+- Width - Chiều rộng - 宽度
+- Height - Chiều cao - 高度
+- Depth - Chiều sâu - 深度
+- Diameter - Đường kính - 直径
+- Volume - Thể tích - 体积
+- Area - Diện tích - 面积
+- Distance - Khoảng cách - 距离
+- Temperature - Nhiệt độ - 温度
+- Inches - Inch (in) - 英寸 (in)
+- Centimeters - Centimet (cm) - 厘米 (cm)
+- Meters - Mét (m) - 米 (m)
+- Feet - Feet (ft) - 英尺 (ft)
+- Pounds - Pound (lb) - 磅 (lb)
+- Kilograms - Kilogam (kg) - 千克 / 公斤 (kg)
+- Ounces - Ounce (oz) - 盎司 (oz)
+- Grams - Gam (g) - 克 (g)
+- Liters - Lít (l) - 升 (l)
+- Gallons - Gallon (gal) - 加仑 (gal)
+- Square feet - Feet vuông (sq ft) - 平方英尺 (sq ft)
+- Square meters - Mét vuông (m²) - 平方米 (m²)
+
+### Time Measurements - Đo lường Thời gian - 时间度量
+- Second - Giây - 秒
+- Minute - Phút - 分钟
+- Hour - Giờ - 小时
+- Day - Ngày - 天
+- Week - Tuần - 周
+- Month - Tháng - 月
+- Year - Năm - 年
+- Duration - Thời lượng - 持续时间
+- Interval - Khoảng thời gian - 间隔
+- Period - Kỳ / Giai đoạn - 周期 / 时段
+- Timestamp - Dấu thời gian - 时间戳
+- Timezone - Múi giờ - 时区
+- UTC - UTC (Giờ Phối hợp Quốc tế) - UTC (协调世界时)
+- GMT - GMT (Giờ Trung bình Greenwich) - GMT (格林尼治标准时间)
+- AM - SA (Sáng) - 上午 (AM)
+- PM - CH (Chiều/Tối) - 下午 (PM)
+- 24-hour format - Định dạng 24 giờ - 24小时制
+- 12-hour format - Định dạng 12 giờ - 12小时制
